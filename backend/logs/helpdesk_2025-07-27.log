@@ -1,0 +1,1018 @@
+2025-07-27 11:31:45 | INFO     | utils.logger_config:setup_logging:55 - Logging configured successfully
+2025-07-27 11:31:45 | INFO     | utils.logger_config:setup_logging:56 - Log level set to: INFO
+2025-07-27 11:31:45 | INFO     | utils.logger_config:setup_logging:57 - Logs directory: D:\Tech_Mahindra\t44444\backend\logs
+2025-07-27 11:31:45 | INFO     | utils.error_handler:setup_error_handlers:57 - Error handlers configured
+2025-07-27 11:31:53 | INFO     | services.vector_service:__init__:25 - Loaded embedding model: all-MiniLM-L6-v2
+2025-07-27 11:31:53 | INFO     | main:startup_event:50 - Starting Helpdesk Assistant API
+2025-07-27 11:31:55 | INFO     | services.vector_service:initialize:57 - Created new collection: helpdesk_tickets
+2025-07-27 11:31:55 | INFO     | services.vector_service:_add_sample_data:162 - Added 5 sample tickets to collection
+2025-07-27 11:31:55 | INFO     | services.vector_service:initialize:62 - Vector service initialized successfully
+2025-07-27 11:31:55 | INFO     | main:startup_event:53 - Vector service initialized successfully
+2025-07-27 11:34:00 | INFO     | utils.logger_config:setup_logging:55 - Logging configured successfully
+2025-07-27 11:34:00 | INFO     | utils.logger_config:setup_logging:56 - Log level set to: INFO
+2025-07-27 11:34:00 | INFO     | utils.logger_config:setup_logging:57 - Logs directory: D:\Tech_Mahindra\t44444\backend\logs
+2025-07-27 11:34:00 | INFO     | utils.error_handler:setup_error_handlers:57 - Error handlers configured
+2025-07-27 11:34:08 | INFO     | services.vector_service:__init__:25 - Loaded embedding model: all-MiniLM-L6-v2
+2025-07-27 11:34:08 | INFO     | main:startup_event:50 - Starting Helpdesk Assistant API
+2025-07-27 11:34:09 | INFO     | services.vector_service:initialize:51 - Connected to existing collection: helpdesk_tickets
+2025-07-27 11:34:09 | INFO     | services.vector_service:initialize:62 - Vector service initialized successfully
+2025-07-27 11:34:09 | INFO     | main:startup_event:53 - Vector service initialized successfully
+2025-07-27 11:38:05 | INFO     | main:submit_ticket:91 - Processing ticket submission for user: Amit
+2025-07-27 11:38:05 | INFO     | services.ticket_service:process_ticket:51 - Processing ticket TKT-20250727-76F0C5 for user Amit
+2025-07-27 11:38:05 | INFO     | services.vector_service:search_similar:242 - Found 0 similar tickets for query
+2025-07-27 11:38:05 | INFO     | services.ticket_service:_find_similar_tickets:130 - Found 0 similar tickets
+2025-07-27 11:38:05 | INFO     | services.ticket_service:process_ticket:58 - No high-confidence matches found, generating AI solution
+2025-07-27 11:38:05 | INFO     | services.ai_service:analyze_ticket:106 - Starting AI analysis for ticket from Amit
+2025-07-27 11:38:07 | INFO     | services.ai_service:analyze_ticket:145 - AI analysis completed in 2048ms
+2025-07-27 11:38:07 | INFO     | services.ticket_service:process_ticket:100 - Ticket TKT-20250727-76F0C5 processed successfully in 2132ms
+2025-07-27 11:38:07 | INFO     | main:submit_ticket:93 - Ticket processed successfully. Type: IssueType.SOFTWARE, Urgency: UrgencyLevel.HIGH
+2025-07-27 11:41:49 | INFO     | utils.logger_config:setup_logging:55 - Logging configured successfully
+2025-07-27 11:41:49 | INFO     | utils.logger_config:setup_logging:56 - Log level set to: INFO
+2025-07-27 11:41:49 | INFO     | utils.logger_config:setup_logging:57 - Logs directory: D:\Tech_Mahindra\t44444\backend\logs
+2025-07-27 11:41:49 | INFO     | utils.error_handler:setup_error_handlers:57 - Error handlers configured
+2025-07-27 11:41:55 | INFO     | services.vector_service:__init__:25 - Loaded embedding model: all-MiniLM-L6-v2
+2025-07-27 11:41:56 | INFO     | main:startup_event:50 - Starting Helpdesk Assistant API
+2025-07-27 11:41:57 | INFO     | services.vector_service:initialize:51 - Connected to existing collection: helpdesk_tickets
+2025-07-27 11:41:57 | INFO     | services.vector_service:initialize:62 - Vector service initialized successfully
+2025-07-27 11:41:57 | INFO     | main:startup_event:53 - Vector service initialized successfully
+2025-07-27 11:42:11 | INFO     | utils.logger_config:setup_logging:55 - Logging configured successfully
+2025-07-27 11:42:11 | INFO     | utils.logger_config:setup_logging:56 - Log level set to: INFO
+2025-07-27 11:42:11 | INFO     | utils.logger_config:setup_logging:57 - Logs directory: D:\Tech_Mahindra\t44444\backend\logs
+2025-07-27 11:42:11 | INFO     | utils.error_handler:setup_error_handlers:57 - Error handlers configured
+2025-07-27 11:42:17 | INFO     | services.vector_service:__init__:25 - Loaded embedding model: all-MiniLM-L6-v2
+2025-07-27 11:42:17 | INFO     | main:startup_event:50 - Starting Helpdesk Assistant API
+2025-07-27 11:42:18 | INFO     | services.vector_service:initialize:51 - Connected to existing collection: helpdesk_tickets
+2025-07-27 11:42:18 | INFO     | services.vector_service:initialize:62 - Vector service initialized successfully
+2025-07-27 11:42:18 | INFO     | main:startup_event:53 - Vector service initialized successfully
+2025-07-27 11:44:02 | INFO     | utils.logger_config:setup_logging:55 - Logging configured successfully
+2025-07-27 11:44:02 | INFO     | utils.logger_config:setup_logging:56 - Log level set to: INFO
+2025-07-27 11:44:02 | INFO     | utils.logger_config:setup_logging:57 - Logs directory: D:\Tech_Mahindra\t44444\backend\logs
+2025-07-27 11:44:02 | INFO     | utils.error_handler:setup_error_handlers:57 - Error handlers configured
+2025-07-27 11:44:11 | INFO     | services.vector_service:__init__:25 - Loaded embedding model: all-MiniLM-L6-v2
+2025-07-27 11:44:12 | INFO     | main:startup_event:50 - Starting Helpdesk Assistant API
+2025-07-27 11:44:12 | INFO     | utils.logger_config:setup_logging:55 - Logging configured successfully
+2025-07-27 11:44:12 | INFO     | utils.logger_config:setup_logging:56 - Log level set to: INFO
+2025-07-27 11:44:12 | INFO     | utils.logger_config:setup_logging:57 - Logs directory: D:\Tech_Mahindra\t44444\backend\logs
+2025-07-27 11:44:12 | INFO     | utils.error_handler:setup_error_handlers:57 - Error handlers configured
+2025-07-27 11:44:12 | INFO     | services.vector_service:initialize:51 - Connected to existing collection: helpdesk_tickets
+2025-07-27 11:44:12 | INFO     | services.vector_service:initialize:62 - Vector service initialized successfully
+2025-07-27 11:44:12 | INFO     | main:startup_event:53 - Vector service initialized successfully
+2025-07-27 11:44:18 | INFO     | services.vector_service:__init__:25 - Loaded embedding model: all-MiniLM-L6-v2
+2025-07-27 11:44:19 | INFO     | __main__:<module>:125 - Starting server on 0.0.0.0:8000
+2025-07-27 11:44:32 | INFO     | utils.logger_config:setup_logging:55 - Logging configured successfully
+2025-07-27 11:44:32 | INFO     | utils.logger_config:setup_logging:56 - Log level set to: INFO
+2025-07-27 11:44:32 | INFO     | utils.logger_config:setup_logging:57 - Logs directory: D:\Tech_Mahindra\t44444\backend\logs
+2025-07-27 11:44:32 | INFO     | utils.error_handler:setup_error_handlers:57 - Error handlers configured
+2025-07-27 11:44:39 | INFO     | services.vector_service:__init__:25 - Loaded embedding model: all-MiniLM-L6-v2
+2025-07-27 11:44:39 | INFO     | utils.logger_config:setup_logging:55 - Logging configured successfully
+2025-07-27 11:44:39 | INFO     | utils.logger_config:setup_logging:56 - Log level set to: INFO
+2025-07-27 11:44:39 | INFO     | utils.logger_config:setup_logging:57 - Logs directory: D:\Tech_Mahindra\t44444\backend\logs
+2025-07-27 11:44:39 | INFO     | utils.error_handler:setup_error_handlers:57 - Error handlers configured
+2025-07-27 11:44:43 | INFO     | services.vector_service:__init__:25 - Loaded embedding model: all-MiniLM-L6-v2
+2025-07-27 11:44:43 | INFO     | main:startup_event:50 - Starting Helpdesk Assistant API
+2025-07-27 11:44:44 | INFO     | services.vector_service:initialize:51 - Connected to existing collection: helpdesk_tickets
+2025-07-27 11:44:44 | INFO     | services.vector_service:initialize:62 - Vector service initialized successfully
+2025-07-27 11:44:44 | INFO     | main:startup_event:53 - Vector service initialized successfully
+2025-07-27 11:45:09 | INFO     | main:submit_ticket:91 - Processing ticket submission for user: Amit Varma Dandu
+2025-07-27 11:45:09 | INFO     | services.ticket_service:process_ticket:51 - Processing ticket TKT-20250727-43AAE8 for user Amit Varma Dandu
+2025-07-27 11:45:09 | INFO     | services.vector_service:search_similar:203 - Searching for similar tickets with query: 'VPN not working after updating it...'
+2025-07-27 11:45:09 | INFO     | services.vector_service:search_similar:251 - Found 0 similar tickets above threshold 0.3
+2025-07-27 11:45:09 | INFO     | services.ticket_service:_find_similar_tickets:165 - Found 0 similar tickets
+2025-07-27 11:45:09 | INFO     | services.ticket_service:process_ticket:61 - No high-confidence matches found (best: none), generating AI solution
+2025-07-27 11:45:09 | INFO     | services.ai_service:analyze_ticket:106 - Starting AI analysis for ticket from Amit Varma Dandu
+2025-07-27 11:45:12 | INFO     | services.ai_service:analyze_ticket:145 - AI analysis completed in 2177ms
+2025-07-27 11:45:12 | ERROR    | services.ticket_service:_store_new_solution:153 - Failed to store new solution for ticket TKT-20250727-43AAE8: 1 validation error for TicketMetadata
+resolution
+  Field required [type=missing, input_value={'ticket_id': 'TKT-202507...solver': 'AI Assistant'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing
+2025-07-27 11:45:12 | INFO     | services.ticket_service:process_ticket:109 - Ticket TKT-20250727-43AAE8 processed successfully in 2574ms
+2025-07-27 11:45:12 | INFO     | main:submit_ticket:93 - Ticket processed successfully. Type: IssueType.SOFTWARE, Urgency: UrgencyLevel.MEDIUM
+2025-07-27 11:45:37 | INFO     | main:submit_ticket:91 - Processing ticket submission for user: Amit Varma Dandu
+2025-07-27 11:45:37 | INFO     | services.ticket_service:process_ticket:51 - Processing ticket TKT-20250727-3B0449 for user Amit Varma Dandu
+2025-07-27 11:45:37 | INFO     | services.vector_service:search_similar:203 - Searching for similar tickets with query: 'After updating the VPN its not working
+...'
+2025-07-27 11:45:37 | INFO     | services.vector_service:search_similar:251 - Found 0 similar tickets above threshold 0.3
+2025-07-27 11:45:37 | INFO     | services.ticket_service:_find_similar_tickets:165 - Found 0 similar tickets
+2025-07-27 11:45:37 | INFO     | services.ticket_service:process_ticket:61 - No high-confidence matches found (best: none), generating AI solution
+2025-07-27 11:45:37 | INFO     | services.ai_service:analyze_ticket:106 - Starting AI analysis for ticket from Amit Varma Dandu
+2025-07-27 11:45:40 | INFO     | services.ai_service:analyze_ticket:145 - AI analysis completed in 3294ms
+2025-07-27 11:45:40 | ERROR    | services.ticket_service:_store_new_solution:153 - Failed to store new solution for ticket TKT-20250727-3B0449: 1 validation error for TicketMetadata
+resolution
+  Field required [type=missing, input_value={'ticket_id': 'TKT-202507...solver': 'AI Assistant'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing
+2025-07-27 11:45:40 | INFO     | services.ticket_service:process_ticket:109 - Ticket TKT-20250727-3B0449 processed successfully in 3343ms
+2025-07-27 11:45:40 | INFO     | main:submit_ticket:93 - Ticket processed successfully. Type: IssueType.SOFTWARE, Urgency: UrgencyLevel.HIGH
+2025-07-27 11:46:27 | INFO     | main:submit_ticket:91 - Processing ticket submission for user: Amit Varma Dandu
+2025-07-27 11:46:27 | INFO     | services.ticket_service:process_ticket:51 - Processing ticket TKT-20250727-8C4B10 for user Amit Varma Dandu
+2025-07-27 11:46:27 | INFO     | services.vector_service:search_similar:203 - Searching for similar tickets with query: 'VPN is not working after updating it 
+...'
+2025-07-27 11:46:27 | INFO     | services.vector_service:search_similar:251 - Found 0 similar tickets above threshold 0.3
+2025-07-27 11:46:27 | INFO     | services.ticket_service:_find_similar_tickets:165 - Found 0 similar tickets
+2025-07-27 11:46:27 | INFO     | services.ticket_service:process_ticket:61 - No high-confidence matches found (best: none), generating AI solution
+2025-07-27 11:46:27 | INFO     | services.ai_service:analyze_ticket:106 - Starting AI analysis for ticket from Amit Varma Dandu
+2025-07-27 11:46:30 | INFO     | services.ai_service:analyze_ticket:145 - AI analysis completed in 3479ms
+2025-07-27 11:46:30 | ERROR    | services.ticket_service:_store_new_solution:153 - Failed to store new solution for ticket TKT-20250727-8C4B10: 1 validation error for TicketMetadata
+resolution
+  Field required [type=missing, input_value={'ticket_id': 'TKT-202507...solver': 'AI Assistant'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing
+2025-07-27 11:46:30 | INFO     | services.ticket_service:process_ticket:109 - Ticket TKT-20250727-8C4B10 processed successfully in 3511ms
+2025-07-27 11:46:30 | INFO     | main:submit_ticket:93 - Ticket processed successfully. Type: IssueType.SOFTWARE, Urgency: UrgencyLevel.MEDIUM
+2025-07-27 11:46:44 | INFO     | utils.logger_config:setup_logging:55 - Logging configured successfully
+2025-07-27 11:46:44 | INFO     | utils.logger_config:setup_logging:56 - Log level set to: INFO
+2025-07-27 11:46:44 | INFO     | utils.logger_config:setup_logging:57 - Logs directory: D:\Tech_Mahindra\t44444\backend\logs
+2025-07-27 11:46:44 | INFO     | utils.error_handler:setup_error_handlers:57 - Error handlers configured
+2025-07-27 11:46:46 | INFO     | utils.logger_config:setup_logging:55 - Logging configured successfully
+2025-07-27 11:46:46 | INFO     | utils.logger_config:setup_logging:56 - Log level set to: INFO
+2025-07-27 11:46:46 | INFO     | utils.logger_config:setup_logging:57 - Logs directory: D:\Tech_Mahindra\t44444\backend\logs
+2025-07-27 11:46:46 | INFO     | utils.error_handler:setup_error_handlers:57 - Error handlers configured
+2025-07-27 11:46:52 | INFO     | services.vector_service:__init__:25 - Loaded embedding model: all-MiniLM-L6-v2
+2025-07-27 11:46:52 | INFO     | services.vector_service:__init__:25 - Loaded embedding model: all-MiniLM-L6-v2
+2025-07-27 11:46:52 | INFO     | main:startup_event:50 - Starting Helpdesk Assistant API
+2025-07-27 11:46:52 | INFO     | services.vector_service:initialize:51 - Connected to existing collection: helpdesk_tickets
+2025-07-27 11:46:52 | INFO     | services.vector_service:initialize:62 - Vector service initialized successfully
+2025-07-27 11:46:52 | INFO     | main:startup_event:53 - Vector service initialized successfully
+2025-07-27 11:47:04 | INFO     | utils.logger_config:setup_logging:55 - Logging configured successfully
+2025-07-27 11:47:04 | INFO     | utils.logger_config:setup_logging:56 - Log level set to: INFO
+2025-07-27 11:47:04 | INFO     | utils.logger_config:setup_logging:57 - Logs directory: D:\Tech_Mahindra\t44444\backend\logs
+2025-07-27 11:47:04 | INFO     | utils.error_handler:setup_error_handlers:57 - Error handlers configured
+2025-07-27 11:47:04 | INFO     | utils.logger_config:setup_logging:55 - Logging configured successfully
+2025-07-27 11:47:04 | INFO     | utils.logger_config:setup_logging:56 - Log level set to: INFO
+2025-07-27 11:47:04 | INFO     | utils.logger_config:setup_logging:57 - Logs directory: D:\Tech_Mahindra\t44444\backend\logs
+2025-07-27 11:47:04 | INFO     | utils.error_handler:setup_error_handlers:57 - Error handlers configured
+2025-07-27 11:47:10 | INFO     | services.vector_service:__init__:25 - Loaded embedding model: all-MiniLM-L6-v2
+2025-07-27 11:47:10 | INFO     | services.vector_service:__init__:25 - Loaded embedding model: all-MiniLM-L6-v2
+2025-07-27 11:47:11 | INFO     | main:startup_event:50 - Starting Helpdesk Assistant API
+2025-07-27 11:47:11 | INFO     | services.vector_service:initialize:51 - Connected to existing collection: helpdesk_tickets
+2025-07-27 11:47:11 | INFO     | services.vector_service:initialize:62 - Vector service initialized successfully
+2025-07-27 11:47:11 | INFO     | main:startup_event:53 - Vector service initialized successfully
+2025-07-27 11:47:20 | INFO     | utils.logger_config:setup_logging:55 - Logging configured successfully
+2025-07-27 11:47:20 | INFO     | utils.logger_config:setup_logging:56 - Log level set to: INFO
+2025-07-27 11:47:20 | INFO     | utils.logger_config:setup_logging:57 - Logs directory: D:\Tech_Mahindra\t44444\backend\logs
+2025-07-27 11:47:20 | INFO     | utils.error_handler:setup_error_handlers:57 - Error handlers configured
+2025-07-27 11:47:22 | INFO     | utils.logger_config:setup_logging:55 - Logging configured successfully
+2025-07-27 11:47:22 | INFO     | utils.logger_config:setup_logging:56 - Log level set to: INFO
+2025-07-27 11:47:22 | INFO     | utils.logger_config:setup_logging:57 - Logs directory: D:\Tech_Mahindra\t44444\backend\logs
+2025-07-27 11:47:22 | INFO     | utils.error_handler:setup_error_handlers:57 - Error handlers configured
+2025-07-27 11:47:26 | INFO     | services.vector_service:__init__:25 - Loaded embedding model: all-MiniLM-L6-v2
+2025-07-27 11:47:27 | INFO     | utils.logger_config:setup_logging:55 - Logging configured successfully
+2025-07-27 11:47:27 | INFO     | utils.logger_config:setup_logging:56 - Log level set to: INFO
+2025-07-27 11:47:27 | INFO     | utils.logger_config:setup_logging:57 - Logs directory: D:\Tech_Mahindra\t44444\backend\logs
+2025-07-27 11:47:27 | INFO     | utils.error_handler:setup_error_handlers:57 - Error handlers configured
+2025-07-27 11:47:28 | INFO     | services.vector_service:__init__:25 - Loaded embedding model: all-MiniLM-L6-v2
+2025-07-27 11:47:28 | INFO     | main:startup_event:50 - Starting Helpdesk Assistant API
+2025-07-27 11:47:28 | INFO     | services.vector_service:initialize:51 - Connected to existing collection: helpdesk_tickets
+2025-07-27 11:47:28 | INFO     | services.vector_service:initialize:62 - Vector service initialized successfully
+2025-07-27 11:47:28 | INFO     | main:startup_event:53 - Vector service initialized successfully
+2025-07-27 11:47:28 | INFO     | main:submit_ticket:91 - Processing ticket submission for user: Test User
+2025-07-27 11:47:28 | INFO     | services.ticket_service:process_ticket:51 - Processing ticket TKT-20250727-206D1B for user Test User
+2025-07-27 11:47:28 | INFO     | services.vector_service:search_similar:203 - Searching for similar tickets with query: 'My laptop screen keeps flickering and sometimes go...'
+2025-07-27 11:47:29 | INFO     | services.vector_service:search_similar:251 - Found 1 similar tickets above threshold 0.3
+2025-07-27 11:47:29 | INFO     | services.vector_service:search_similar:253 - Best match: TKT-2024-001 with similarity 0.906
+2025-07-27 11:47:29 | INFO     | services.ticket_service:_find_similar_tickets:169 - Found 1 similar tickets
+2025-07-27 11:47:29 | INFO     | services.ticket_service:process_ticket:55 - Found 1 similar tickets
+2025-07-27 11:47:29 | INFO     | services.ticket_service:process_ticket:57 - Best similarity score: 0.906
+2025-07-27 11:47:29 | INFO     | services.ticket_service:process_ticket:74 - High-confidence match found (similarity: 0.906), using database solution
+2025-07-27 11:47:29 | INFO     | services.ticket_service:process_ticket:112 - Ticket TKT-20250727-206D1B processed successfully in 87ms
+2025-07-27 11:47:29 | INFO     | main:submit_ticket:93 - Ticket processed successfully. Type: IssueType.HARDWARE, Urgency: UrgencyLevel.MEDIUM
+2025-07-27 11:47:31 | INFO     | services.vector_service:__init__:25 - Loaded embedding model: all-MiniLM-L6-v2
+2025-07-27 11:47:32 | INFO     | main:startup_event:50 - Starting Helpdesk Assistant API
+2025-07-27 11:47:32 | INFO     | services.vector_service:initialize:51 - Connected to existing collection: helpdesk_tickets
+2025-07-27 11:47:32 | INFO     | services.vector_service:initialize:62 - Vector service initialized successfully
+2025-07-27 11:47:32 | INFO     | main:startup_event:53 - Vector service initialized successfully
+2025-07-27 11:48:09 | INFO     | main:submit_ticket:91 - Processing ticket submission for user: Test User
+2025-07-27 11:48:09 | INFO     | services.ticket_service:process_ticket:51 - Processing ticket TKT-20250727-7F88BF for user Test User
+2025-07-27 11:48:09 | INFO     | services.vector_service:search_similar:203 - Searching for similar tickets with query: 'My laptop screen keeps flickering and sometimes go...'
+2025-07-27 11:48:09 | INFO     | services.vector_service:search_similar:251 - Found 1 similar tickets above threshold 0.3
+2025-07-27 11:48:09 | INFO     | services.vector_service:search_similar:253 - Best match: TKT-2024-001 with similarity 0.906
+2025-07-27 11:48:09 | INFO     | services.ticket_service:_find_similar_tickets:169 - Found 1 similar tickets
+2025-07-27 11:48:09 | INFO     | services.ticket_service:process_ticket:55 - Found 1 similar tickets
+2025-07-27 11:48:09 | INFO     | services.ticket_service:process_ticket:57 - Best similarity score: 0.906
+2025-07-27 11:48:09 | INFO     | services.ticket_service:process_ticket:74 - High-confidence match found (similarity: 0.906), using database solution
+2025-07-27 11:48:09 | INFO     | services.ticket_service:process_ticket:112 - Ticket TKT-20250727-7F88BF processed successfully in 21ms
+2025-07-27 11:48:09 | INFO     | main:submit_ticket:93 - Ticket processed successfully. Type: IssueType.HARDWARE, Urgency: UrgencyLevel.MEDIUM
+2025-07-27 11:48:27 | INFO     | main:submit_ticket:91 - Processing ticket submission for user: Jane Doe
+2025-07-27 11:48:27 | INFO     | services.ticket_service:process_ticket:51 - Processing ticket TKT-20250727-30DA8E for user Jane Doe
+2025-07-27 11:48:27 | INFO     | services.vector_service:search_similar:203 - Searching for similar tickets with query: 'My new smartphone camera is not focusing properly ...'
+2025-07-27 11:48:27 | INFO     | services.vector_service:search_similar:251 - Found 0 similar tickets above threshold 0.3
+2025-07-27 11:48:27 | INFO     | services.ticket_service:_find_similar_tickets:169 - Found 0 similar tickets
+2025-07-27 11:48:27 | INFO     | services.ticket_service:process_ticket:55 - Found 0 similar tickets
+2025-07-27 11:48:27 | INFO     | services.ticket_service:process_ticket:64 - No high-confidence matches found (best: none), generating AI solution
+2025-07-27 11:48:27 | INFO     | services.ai_service:analyze_ticket:106 - Starting AI analysis for ticket from Jane Doe
+2025-07-27 11:48:29 | INFO     | services.ai_service:analyze_ticket:145 - AI analysis completed in 1834ms
+2025-07-27 11:48:29 | INFO     | services.vector_service:add_resolved_ticket:193 - Added resolved ticket TKT-20250727-30DA8E to vector database
+2025-07-27 11:48:29 | INFO     | services.ticket_service:_store_new_solution:154 - Stored new AI solution for ticket TKT-20250727-30DA8E in vector database
+2025-07-27 11:48:29 | INFO     | services.ticket_service:process_ticket:112 - Ticket TKT-20250727-30DA8E processed successfully in 1909ms
+2025-07-27 11:48:29 | INFO     | main:submit_ticket:93 - Ticket processed successfully. Type: IssueType.HARDWARE, Urgency: UrgencyLevel.MEDIUM
+2025-07-27 11:48:38 | INFO     | main:submit_ticket:91 - Processing ticket submission for user: John Smith
+2025-07-27 11:48:38 | INFO     | services.ticket_service:process_ticket:51 - Processing ticket TKT-20250727-D8EC59 for user John Smith
+2025-07-27 11:48:38 | INFO     | services.vector_service:search_similar:203 - Searching for similar tickets with query: 'My new smartphone camera is not focusing properly ...'
+2025-07-27 11:48:38 | INFO     | services.vector_service:search_similar:251 - Found 1 similar tickets above threshold 0.3
+2025-07-27 11:48:38 | INFO     | services.vector_service:search_similar:253 - Best match: TKT-20250727-30DA8E with similarity 1.000
+2025-07-27 11:48:38 | INFO     | services.ticket_service:_find_similar_tickets:169 - Found 1 similar tickets
+2025-07-27 11:48:38 | INFO     | services.ticket_service:process_ticket:55 - Found 1 similar tickets
+2025-07-27 11:48:38 | INFO     | services.ticket_service:process_ticket:57 - Best similarity score: 1.000
+2025-07-27 11:48:38 | INFO     | services.ticket_service:process_ticket:74 - High-confidence match found (similarity: 1.000), using database solution
+2025-07-27 11:48:38 | INFO     | services.ticket_service:process_ticket:112 - Ticket TKT-20250727-D8EC59 processed successfully in 20ms
+2025-07-27 11:48:38 | INFO     | main:submit_ticket:93 - Ticket processed successfully. Type: IssueType.HARDWARE, Urgency: UrgencyLevel.MEDIUM
+2025-07-27 11:49:02 | INFO     | utils.logger_config:setup_logging:55 - Logging configured successfully
+2025-07-27 11:49:02 | INFO     | utils.logger_config:setup_logging:56 - Log level set to: INFO
+2025-07-27 11:49:02 | INFO     | utils.logger_config:setup_logging:57 - Logs directory: D:\Tech_Mahindra\t44444\backend\logs
+2025-07-27 11:49:02 | INFO     | utils.error_handler:setup_error_handlers:57 - Error handlers configured
+2025-07-27 11:49:08 | INFO     | utils.logger_config:setup_logging:55 - Logging configured successfully
+2025-07-27 11:49:08 | INFO     | utils.logger_config:setup_logging:56 - Log level set to: INFO
+2025-07-27 11:49:08 | INFO     | utils.logger_config:setup_logging:57 - Logs directory: D:\Tech_Mahindra\t44444\backend\logs
+2025-07-27 11:49:08 | INFO     | utils.error_handler:setup_error_handlers:57 - Error handlers configured
+2025-07-27 11:49:11 | INFO     | services.vector_service:__init__:25 - Loaded embedding model: all-MiniLM-L6-v2
+2025-07-27 11:49:11 | INFO     | main:startup_event:50 - Starting Helpdesk Assistant API
+2025-07-27 11:49:12 | INFO     | services.vector_service:initialize:51 - Connected to existing collection: helpdesk_tickets
+2025-07-27 11:49:12 | INFO     | services.vector_service:initialize:62 - Vector service initialized successfully
+2025-07-27 11:49:12 | INFO     | main:startup_event:53 - Vector service initialized successfully
+2025-07-27 11:49:15 | INFO     | services.vector_service:__init__:25 - Loaded embedding model: all-MiniLM-L6-v2
+2025-07-27 11:49:15 | INFO     | utils.logger_config:setup_logging:55 - Logging configured successfully
+2025-07-27 11:49:15 | INFO     | utils.logger_config:setup_logging:56 - Log level set to: INFO
+2025-07-27 11:49:15 | INFO     | utils.logger_config:setup_logging:57 - Logs directory: D:\Tech_Mahindra\t44444\backend\logs
+2025-07-27 11:49:15 | INFO     | utils.error_handler:setup_error_handlers:57 - Error handlers configured
+2025-07-27 11:49:20 | INFO     | main:submit_ticket:91 - Processing ticket submission for user: Amit Varma Dandu
+2025-07-27 11:49:20 | INFO     | services.ticket_service:process_ticket:51 - Processing ticket TKT-20250727-F157E4 for user Amit Varma Dandu
+2025-07-27 11:49:20 | INFO     | services.vector_service:search_similar:203 - Searching for similar tickets with query: 'VPN not working...'
+2025-07-27 11:49:20 | INFO     | services.vector_service:search_similar:251 - Found 0 similar tickets above threshold 0.3
+2025-07-27 11:49:20 | INFO     | services.ticket_service:_find_similar_tickets:169 - Found 0 similar tickets
+2025-07-27 11:49:20 | INFO     | services.ticket_service:process_ticket:55 - Found 0 similar tickets
+2025-07-27 11:49:20 | INFO     | services.ticket_service:process_ticket:64 - No high-confidence matches found (best: none), generating AI solution
+2025-07-27 11:49:20 | INFO     | services.ai_service:analyze_ticket:106 - Starting AI analysis for ticket from Amit Varma Dandu
+2025-07-27 11:49:21 | INFO     | services.vector_service:__init__:25 - Loaded embedding model: all-MiniLM-L6-v2
+2025-07-27 11:49:22 | INFO     | main:startup_event:50 - Starting Helpdesk Assistant API
+2025-07-27 11:49:22 | INFO     | services.vector_service:initialize:51 - Connected to existing collection: helpdesk_tickets
+2025-07-27 11:49:22 | INFO     | services.vector_service:initialize:62 - Vector service initialized successfully
+2025-07-27 11:49:22 | INFO     | main:startup_event:53 - Vector service initialized successfully
+2025-07-27 11:49:22 | INFO     | services.ai_service:analyze_ticket:145 - AI analysis completed in 2875ms
+2025-07-27 11:49:22 | INFO     | services.vector_service:add_resolved_ticket:193 - Added resolved ticket TKT-20250727-F157E4 to vector database
+2025-07-27 11:49:22 | INFO     | services.ticket_service:_store_new_solution:154 - Stored new AI solution for ticket TKT-20250727-F157E4 in vector database
+2025-07-27 11:49:22 | INFO     | services.ticket_service:process_ticket:112 - Ticket TKT-20250727-F157E4 processed successfully in 2929ms
+2025-07-27 11:49:22 | INFO     | main:submit_ticket:93 - Ticket processed successfully. Type: IssueType.NETWORK, Urgency: UrgencyLevel.HIGH
+2025-07-27 11:49:37 | INFO     | utils.logger_config:setup_logging:55 - Logging configured successfully
+2025-07-27 11:49:37 | INFO     | utils.logger_config:setup_logging:56 - Log level set to: INFO
+2025-07-27 11:49:37 | INFO     | utils.logger_config:setup_logging:57 - Logs directory: D:\Tech_Mahindra\t44444\backend\logs
+2025-07-27 11:49:37 | INFO     | utils.error_handler:setup_error_handlers:57 - Error handlers configured
+2025-07-27 11:49:45 | INFO     | services.vector_service:__init__:25 - Loaded embedding model: all-MiniLM-L6-v2
+2025-07-27 11:49:45 | INFO     | main:startup_event:50 - Starting Helpdesk Assistant API
+2025-07-27 11:49:46 | INFO     | services.vector_service:initialize:51 - Connected to existing collection: helpdesk_tickets
+2025-07-27 11:49:46 | INFO     | services.vector_service:initialize:62 - Vector service initialized successfully
+2025-07-27 11:49:46 | INFO     | main:startup_event:53 - Vector service initialized successfully
+2025-07-27 11:49:46 | INFO     | main:submit_ticket:91 - Processing ticket submission for user: Amit Varma Dandu
+2025-07-27 11:49:46 | INFO     | services.ticket_service:process_ticket:51 - Processing ticket TKT-20250727-AD982F for user Amit Varma Dandu
+2025-07-27 11:49:46 | INFO     | services.vector_service:search_similar:203 - Searching for similar tickets with query: 'VPN not working...'
+2025-07-27 11:49:46 | INFO     | services.vector_service:search_similar:251 - Found 1 similar tickets above threshold 0.3
+2025-07-27 11:49:46 | INFO     | services.vector_service:search_similar:253 - Best match: TKT-20250727-F157E4 with similarity 1.000
+2025-07-27 11:49:46 | INFO     | services.ticket_service:_find_similar_tickets:169 - Found 1 similar tickets
+2025-07-27 11:49:46 | INFO     | services.ticket_service:process_ticket:55 - Found 1 similar tickets
+2025-07-27 11:49:46 | INFO     | services.ticket_service:process_ticket:57 - Best similarity score: 1.000
+2025-07-27 11:49:46 | INFO     | services.ticket_service:process_ticket:74 - High-confidence match found (similarity: 1.000), using database solution
+2025-07-27 11:49:46 | INFO     | services.ticket_service:process_ticket:112 - Ticket TKT-20250727-AD982F processed successfully in 128ms
+2025-07-27 11:49:46 | INFO     | main:submit_ticket:93 - Ticket processed successfully. Type: IssueType.NETWORK, Urgency: UrgencyLevel.HIGH
+2025-07-27 11:52:24 | INFO     | main:submit_ticket:91 - Processing ticket submission for user: Amit Varma Dandu
+2025-07-27 11:52:24 | INFO     | services.ticket_service:process_ticket:51 - Processing ticket TKT-20250727-5669AA for user Amit Varma Dandu
+2025-07-27 11:52:24 | INFO     | services.vector_service:search_similar:203 - Searching for similar tickets with query: 'Not working VPN...'
+2025-07-27 11:52:24 | INFO     | services.vector_service:search_similar:251 - Found 1 similar tickets above threshold 0.3
+2025-07-27 11:52:24 | INFO     | services.vector_service:search_similar:253 - Best match: TKT-20250727-F157E4 with similarity 0.978
+2025-07-27 11:52:24 | INFO     | services.ticket_service:_find_similar_tickets:169 - Found 1 similar tickets
+2025-07-27 11:52:24 | INFO     | services.ticket_service:process_ticket:55 - Found 1 similar tickets
+2025-07-27 11:52:24 | INFO     | services.ticket_service:process_ticket:57 - Best similarity score: 0.978
+2025-07-27 11:52:24 | INFO     | services.ticket_service:process_ticket:74 - High-confidence match found (similarity: 0.978), using database solution
+2025-07-27 11:52:24 | INFO     | services.ticket_service:process_ticket:112 - Ticket TKT-20250727-5669AA processed successfully in 26ms
+2025-07-27 11:52:24 | INFO     | main:submit_ticket:93 - Ticket processed successfully. Type: IssueType.NETWORK, Urgency: UrgencyLevel.HIGH
+2025-07-27 12:07:41 | INFO     | main:submit_ticket:91 - Processing ticket submission for user: Amit Varma Dandu
+2025-07-27 12:07:41 | INFO     | services.ticket_service:process_ticket:51 - Processing ticket TKT-20250727-92CE01 for user Amit Varma Dandu
+2025-07-27 12:07:41 | INFO     | services.vector_service:search_similar:203 - Searching for similar tickets with query: 'VPN not working after updating it
+...'
+2025-07-27 12:07:42 | INFO     | services.vector_service:search_similar:251 - Found 1 similar tickets above threshold 0.3
+2025-07-27 12:07:42 | INFO     | services.vector_service:search_similar:253 - Best match: TKT-20250727-F157E4 with similarity 0.827
+2025-07-27 12:07:42 | INFO     | services.ticket_service:_find_similar_tickets:169 - Found 1 similar tickets
+2025-07-27 12:07:42 | INFO     | services.ticket_service:process_ticket:55 - Found 1 similar tickets
+2025-07-27 12:07:42 | INFO     | services.ticket_service:process_ticket:57 - Best similarity score: 0.827
+2025-07-27 12:07:42 | INFO     | services.ticket_service:process_ticket:74 - High-confidence match found (similarity: 0.827), using database solution
+2025-07-27 12:07:42 | INFO     | services.ticket_service:process_ticket:112 - Ticket TKT-20250727-92CE01 processed successfully in 36ms
+2025-07-27 12:07:42 | INFO     | main:submit_ticket:93 - Ticket processed successfully. Type: IssueType.NETWORK, Urgency: UrgencyLevel.HIGH
+2025-07-27 12:08:51 | INFO     | main:submit_ticket:91 - Processing ticket submission for user: Amit Varma Dandu
+2025-07-27 12:08:51 | INFO     | services.ticket_service:process_ticket:51 - Processing ticket TKT-20250727-56904F for user Amit Varma Dandu
+2025-07-27 12:08:51 | INFO     | services.vector_service:search_similar:203 - Searching for similar tickets with query: 'VPN is not working after updating it 
+...'
+2025-07-27 12:08:51 | INFO     | services.vector_service:search_similar:251 - Found 1 similar tickets above threshold 0.3
+2025-07-27 12:08:51 | INFO     | services.vector_service:search_similar:253 - Best match: TKT-20250727-F157E4 with similarity 0.832
+2025-07-27 12:08:51 | INFO     | services.ticket_service:_find_similar_tickets:169 - Found 1 similar tickets
+2025-07-27 12:08:51 | INFO     | services.ticket_service:process_ticket:55 - Found 1 similar tickets
+2025-07-27 12:08:51 | INFO     | services.ticket_service:process_ticket:57 - Best similarity score: 0.832
+2025-07-27 12:08:51 | INFO     | services.ticket_service:process_ticket:74 - High-confidence match found (similarity: 0.832), using database solution
+2025-07-27 12:08:51 | INFO     | services.ticket_service:process_ticket:112 - Ticket TKT-20250727-56904F processed successfully in 79ms
+2025-07-27 12:08:51 | INFO     | main:submit_ticket:93 - Ticket processed successfully. Type: IssueType.NETWORK, Urgency: UrgencyLevel.HIGH
+2025-07-27 12:09:06 | INFO     | utils.logger_config:setup_logging:55 - Logging configured successfully
+2025-07-27 12:09:06 | INFO     | utils.logger_config:setup_logging:56 - Log level set to: INFO
+2025-07-27 12:09:06 | INFO     | utils.logger_config:setup_logging:57 - Logs directory: D:\Tech_Mahindra\t44444\backend\logs
+2025-07-27 12:09:06 | INFO     | utils.error_handler:setup_error_handlers:57 - Error handlers configured
+2025-07-27 12:09:13 | INFO     | services.vector_service:__init__:25 - Loaded embedding model: all-MiniLM-L6-v2
+2025-07-27 12:09:13 | INFO     | main:startup_event:50 - Starting Helpdesk Assistant API
+2025-07-27 12:09:14 | INFO     | services.vector_service:initialize:51 - Connected to existing collection: helpdesk_tickets
+2025-07-27 12:09:14 | INFO     | services.vector_service:initialize:62 - Vector service initialized successfully
+2025-07-27 12:09:14 | INFO     | main:startup_event:53 - Vector service initialized successfully
+2025-07-27 12:09:41 | INFO     | main:submit_ticket:91 - Processing ticket submission for user: Amit Varma Dandu
+2025-07-27 12:09:41 | INFO     | services.ticket_service:process_ticket:51 - Processing ticket TKT-20250727-22FD3D for user Amit Varma Dandu
+2025-07-27 12:09:41 | INFO     | services.vector_service:search_similar:203 - Searching for similar tickets with query: 'VPN is crashing all the time i open it
+...'
+2025-07-27 12:09:41 | INFO     | services.vector_service:search_similar:251 - Found 3 similar tickets above threshold 0.3
+2025-07-27 12:09:41 | INFO     | services.vector_service:search_similar:253 - Best match: TKT-20250727-F157E4 with similarity 0.696
+2025-07-27 12:09:41 | INFO     | services.ticket_service:_find_similar_tickets:169 - Found 3 similar tickets
+2025-07-27 12:09:41 | INFO     | services.ticket_service:process_ticket:55 - Found 3 similar tickets
+2025-07-27 12:09:41 | INFO     | services.ticket_service:process_ticket:57 - Best similarity score: 0.696
+2025-07-27 12:09:41 | INFO     | services.ticket_service:process_ticket:74 - High-confidence match found (similarity: 0.696), using database solution
+2025-07-27 12:09:41 | INFO     | services.ticket_service:process_ticket:112 - Ticket TKT-20250727-22FD3D processed successfully in 159ms
+2025-07-27 12:09:41 | INFO     | main:submit_ticket:93 - Ticket processed successfully. Type: IssueType.NETWORK, Urgency: UrgencyLevel.HIGH
+2025-07-27 12:12:06 | INFO     | utils.logger_config:setup_logging:55 - Logging configured successfully
+2025-07-27 12:12:06 | INFO     | utils.logger_config:setup_logging:56 - Log level set to: INFO
+2025-07-27 12:12:06 | INFO     | utils.logger_config:setup_logging:57 - Logs directory: D:\Tech_Mahindra\t44444\backend\logs
+2025-07-27 12:12:06 | INFO     | utils.error_handler:setup_error_handlers:57 - Error handlers configured
+2025-07-27 12:12:15 | INFO     | services.vector_service:__init__:25 - Loaded embedding model: all-MiniLM-L6-v2
+2025-07-27 12:12:15 | INFO     | main:startup_event:50 - Starting Helpdesk Assistant API
+2025-07-27 12:12:16 | INFO     | services.vector_service:initialize:51 - Connected to existing collection: helpdesk_tickets
+2025-07-27 12:12:16 | INFO     | services.vector_service:initialize:62 - Vector service initialized successfully
+2025-07-27 12:12:16 | INFO     | main:startup_event:53 - Vector service initialized successfully
+2025-07-27 12:12:38 | INFO     | utils.logger_config:setup_logging:55 - Logging configured successfully
+2025-07-27 12:12:38 | INFO     | utils.logger_config:setup_logging:56 - Log level set to: INFO
+2025-07-27 12:12:38 | INFO     | utils.logger_config:setup_logging:57 - Logs directory: D:\Tech_Mahindra\t44444\backend\logs
+2025-07-27 12:12:38 | INFO     | utils.error_handler:setup_error_handlers:57 - Error handlers configured
+2025-07-27 12:12:45 | INFO     | services.vector_service:__init__:25 - Loaded embedding model: all-MiniLM-L6-v2
+2025-07-27 12:12:45 | INFO     | main:startup_event:50 - Starting Helpdesk Assistant API
+2025-07-27 12:12:46 | INFO     | services.vector_service:initialize:51 - Connected to existing collection: helpdesk_tickets
+2025-07-27 12:12:46 | INFO     | services.vector_service:initialize:62 - Vector service initialized successfully
+2025-07-27 12:12:46 | INFO     | main:startup_event:53 - Vector service initialized successfully
+2025-07-27 12:13:01 | INFO     | utils.logger_config:setup_logging:55 - Logging configured successfully
+2025-07-27 12:13:01 | INFO     | utils.logger_config:setup_logging:56 - Log level set to: INFO
+2025-07-27 12:13:01 | INFO     | utils.logger_config:setup_logging:57 - Logs directory: D:\Tech_Mahindra\t44444\backend\logs
+2025-07-27 12:13:01 | INFO     | utils.error_handler:setup_error_handlers:57 - Error handlers configured
+2025-07-27 12:13:09 | INFO     | services.vector_service:__init__:25 - Loaded embedding model: all-MiniLM-L6-v2
+2025-07-27 12:13:09 | INFO     | main:startup_event:50 - Starting Helpdesk Assistant API
+2025-07-27 12:13:10 | INFO     | services.vector_service:initialize:51 - Connected to existing collection: helpdesk_tickets
+2025-07-27 12:13:10 | INFO     | services.vector_service:initialize:62 - Vector service initialized successfully
+2025-07-27 12:13:10 | INFO     | main:startup_event:53 - Vector service initialized successfully
+2025-07-27 12:13:26 | INFO     | utils.logger_config:setup_logging:55 - Logging configured successfully
+2025-07-27 12:13:26 | INFO     | utils.logger_config:setup_logging:56 - Log level set to: INFO
+2025-07-27 12:13:26 | INFO     | utils.logger_config:setup_logging:57 - Logs directory: D:\Tech_Mahindra\t44444\backend\logs
+2025-07-27 12:13:26 | INFO     | utils.error_handler:setup_error_handlers:57 - Error handlers configured
+2025-07-27 12:13:34 | INFO     | services.vector_service:__init__:25 - Loaded embedding model: all-MiniLM-L6-v2
+2025-07-27 12:13:34 | INFO     | main:startup_event:50 - Starting Helpdesk Assistant API
+2025-07-27 12:13:35 | INFO     | services.vector_service:initialize:51 - Connected to existing collection: helpdesk_tickets
+2025-07-27 12:13:35 | INFO     | services.vector_service:initialize:62 - Vector service initialized successfully
+2025-07-27 12:13:35 | INFO     | main:startup_event:53 - Vector service initialized successfully
+2025-07-27 12:14:12 | INFO     | utils.logger_config:setup_logging:55 - Logging configured successfully
+2025-07-27 12:14:12 | INFO     | utils.logger_config:setup_logging:56 - Log level set to: INFO
+2025-07-27 12:14:12 | INFO     | utils.logger_config:setup_logging:57 - Logs directory: D:\Tech_Mahindra\t44444\backend\logs
+2025-07-27 12:14:12 | INFO     | utils.error_handler:setup_error_handlers:57 - Error handlers configured
+2025-07-27 12:14:19 | INFO     | services.vector_service:__init__:25 - Loaded embedding model: all-MiniLM-L6-v2
+2025-07-27 12:14:19 | INFO     | main:startup_event:50 - Starting Helpdesk Assistant API
+2025-07-27 12:14:20 | INFO     | services.vector_service:initialize:51 - Connected to existing collection: helpdesk_tickets
+2025-07-27 12:14:20 | INFO     | services.vector_service:initialize:62 - Vector service initialized successfully
+2025-07-27 12:14:20 | INFO     | main:startup_event:53 - Vector service initialized successfully
+2025-07-27 12:14:35 | INFO     | utils.logger_config:setup_logging:55 - Logging configured successfully
+2025-07-27 12:14:35 | INFO     | utils.logger_config:setup_logging:56 - Log level set to: INFO
+2025-07-27 12:14:35 | INFO     | utils.logger_config:setup_logging:57 - Logs directory: D:\Tech_Mahindra\t44444\backend\logs
+2025-07-27 12:14:35 | INFO     | utils.error_handler:setup_error_handlers:57 - Error handlers configured
+2025-07-27 12:14:43 | INFO     | services.vector_service:__init__:25 - Loaded embedding model: all-MiniLM-L6-v2
+2025-07-27 12:14:44 | INFO     | main:startup_event:50 - Starting Helpdesk Assistant API
+2025-07-27 12:14:44 | INFO     | services.vector_service:initialize:51 - Connected to existing collection: helpdesk_tickets
+2025-07-27 12:14:44 | INFO     | services.vector_service:initialize:62 - Vector service initialized successfully
+2025-07-27 12:14:44 | INFO     | main:startup_event:53 - Vector service initialized successfully
+2025-07-27 12:14:58 | INFO     | utils.logger_config:setup_logging:55 - Logging configured successfully
+2025-07-27 12:14:58 | INFO     | utils.logger_config:setup_logging:56 - Log level set to: INFO
+2025-07-27 12:14:58 | INFO     | utils.logger_config:setup_logging:57 - Logs directory: D:\Tech_Mahindra\t44444\backend\logs
+2025-07-27 12:14:58 | INFO     | utils.error_handler:setup_error_handlers:57 - Error handlers configured
+2025-07-27 12:15:05 | INFO     | services.vector_service:__init__:25 - Loaded embedding model: all-MiniLM-L6-v2
+2025-07-27 12:15:06 | INFO     | main:startup_event:50 - Starting Helpdesk Assistant API
+2025-07-27 12:15:06 | INFO     | services.vector_service:initialize:51 - Connected to existing collection: helpdesk_tickets
+2025-07-27 12:15:06 | INFO     | services.vector_service:initialize:62 - Vector service initialized successfully
+2025-07-27 12:15:06 | INFO     | main:startup_event:53 - Vector service initialized successfully
+2025-07-27 12:18:26 | INFO     | utils.logger_config:setup_logging:55 - Logging configured successfully
+2025-07-27 12:18:26 | INFO     | utils.logger_config:setup_logging:56 - Log level set to: INFO
+2025-07-27 12:18:26 | INFO     | utils.logger_config:setup_logging:57 - Logs directory: D:\Tech_Mahindra\t44444\backend\logs
+2025-07-27 12:18:26 | INFO     | utils.error_handler:setup_error_handlers:57 - Error handlers configured
+2025-07-27 12:18:32 | INFO     | services.vector_service:__init__:25 - Loaded embedding model: all-MiniLM-L6-v2
+2025-07-27 12:18:32 | INFO     | main:startup_event:50 - Starting Helpdesk Assistant API
+2025-07-27 12:18:33 | INFO     | services.vector_service:initialize:51 - Connected to existing collection: helpdesk_tickets
+2025-07-27 12:18:33 | INFO     | services.vector_service:initialize:62 - Vector service initialized successfully
+2025-07-27 12:18:33 | INFO     | main:startup_event:53 - Vector service initialized successfully
+2025-07-27 12:22:20 | INFO     | utils.logger_config:setup_logging:55 - Logging configured successfully
+2025-07-27 12:22:20 | INFO     | utils.logger_config:setup_logging:56 - Log level set to: INFO
+2025-07-27 12:22:20 | INFO     | utils.logger_config:setup_logging:57 - Logs directory: D:\Tech_Mahindra\t44444\backend\logs
+2025-07-27 12:22:20 | INFO     | utils.error_handler:setup_error_handlers:57 - Error handlers configured
+2025-07-27 12:22:26 | INFO     | services.vector_service:__init__:25 - Loaded embedding model: all-MiniLM-L6-v2
+2025-07-27 12:22:27 | INFO     | utils.logger_config:setup_logging:55 - Logging configured successfully
+2025-07-27 12:22:27 | INFO     | utils.logger_config:setup_logging:56 - Log level set to: INFO
+2025-07-27 12:22:27 | INFO     | utils.logger_config:setup_logging:57 - Logs directory: D:\Tech_Mahindra\t44444\backend\logs
+2025-07-27 12:22:27 | INFO     | utils.error_handler:setup_error_handlers:57 - Error handlers configured
+2025-07-27 12:22:30 | INFO     | services.vector_service:__init__:25 - Loaded embedding model: all-MiniLM-L6-v2
+2025-07-27 12:22:31 | INFO     | main:startup_event:50 - Starting Helpdesk Assistant API
+2025-07-27 12:22:31 | INFO     | services.vector_service:initialize:51 - Connected to existing collection: helpdesk_tickets
+2025-07-27 12:22:31 | INFO     | services.vector_service:initialize:62 - Vector service initialized successfully
+2025-07-27 12:22:31 | INFO     | main:startup_event:53 - Vector service initialized successfully
+2025-07-27 12:26:24 | INFO     | main:submit_ticket:91 - Processing ticket submission for user: Test User
+2025-07-27 12:26:24 | INFO     | services.ticket_service:process_ticket:51 - Processing ticket TKT-20250727-8BFB81 for user Test User
+2025-07-27 12:26:24 | INFO     | services.vector_service:search_similar:203 - Searching for similar tickets with query: 'VPN is crashing everytime i open it...'
+2025-07-27 12:26:24 | INFO     | services.vector_service:search_similar:251 - Found 2 similar tickets above threshold 0.3
+2025-07-27 12:26:24 | INFO     | services.vector_service:search_similar:253 - Best match: TKT-20250727-F157E4 with similarity 0.711
+2025-07-27 12:26:24 | INFO     | services.ticket_service:_find_similar_tickets:238 - Found 2 similar tickets
+2025-07-27 12:26:24 | INFO     | services.ticket_service:process_ticket:55 - Found 2 similar tickets
+2025-07-27 12:26:24 | INFO     | services.ticket_service:process_ticket:57 - Best similarity score: 0.711
+2025-07-27 12:26:24 | INFO     | services.ticket_service:process_ticket:75 - Match found but not confident enough (similarity: 0.711, threshold: 0.8), generating AI solution
+2025-07-27 12:26:24 | INFO     | services.ticket_service:process_ticket:78 - No high-confidence matches found (best: 0.711), generating AI solution
+2025-07-27 12:26:24 | INFO     | services.ai_service:analyze_ticket:106 - Starting AI analysis for ticket from Test User
+2025-07-27 12:26:27 | INFO     | services.ai_service:analyze_ticket:145 - AI analysis completed in 3011ms
+2025-07-27 12:26:27 | INFO     | services.vector_service:add_resolved_ticket:193 - Added resolved ticket TKT-20250727-8BFB81 to vector database
+2025-07-27 12:26:27 | INFO     | services.ticket_service:_store_new_solution:166 - Stored new AI solution for ticket TKT-20250727-8BFB81 in vector database
+2025-07-27 12:26:27 | INFO     | services.ticket_service:process_ticket:124 - Ticket TKT-20250727-8BFB81 processed successfully in 3352ms
+2025-07-27 12:26:27 | INFO     | main:submit_ticket:93 - Ticket processed successfully. Type: IssueType.SOFTWARE, Urgency: UrgencyLevel.HIGH
+2025-07-27 12:26:56 | INFO     | main:submit_ticket:91 - Processing ticket submission for user: Test User 2
+2025-07-27 12:26:56 | INFO     | services.ticket_service:process_ticket:51 - Processing ticket TKT-20250727-A5B381 for user Test User 2
+2025-07-27 12:26:56 | INFO     | services.vector_service:search_similar:203 - Searching for similar tickets with query: 'VPN application is crashing when I try to open it...'
+2025-07-27 12:26:56 | INFO     | services.vector_service:search_similar:251 - Found 3 similar tickets above threshold 0.3
+2025-07-27 12:26:56 | INFO     | services.vector_service:search_similar:253 - Best match: TKT-20250727-8BFB81 with similarity 0.918
+2025-07-27 12:26:56 | INFO     | services.ticket_service:_find_similar_tickets:238 - Found 3 similar tickets
+2025-07-27 12:26:56 | INFO     | services.ticket_service:process_ticket:55 - Found 3 similar tickets
+2025-07-27 12:26:56 | INFO     | services.ticket_service:process_ticket:57 - Best similarity score: 0.918
+2025-07-27 12:26:56 | INFO     | services.ticket_service:process_ticket:73 - High-confidence match found (similarity: 0.918, keywords match), using database solution
+2025-07-27 12:26:56 | INFO     | services.ticket_service:process_ticket:124 - Ticket TKT-20250727-A5B381 processed successfully in 28ms
+2025-07-27 12:26:56 | INFO     | main:submit_ticket:93 - Ticket processed successfully. Type: IssueType.SOFTWARE, Urgency: UrgencyLevel.HIGH
+2025-07-27 12:30:08 | INFO     | utils.logger_config:setup_logging:55 - Logging configured successfully
+2025-07-27 12:30:08 | INFO     | utils.logger_config:setup_logging:56 - Log level set to: INFO
+2025-07-27 12:30:08 | INFO     | utils.logger_config:setup_logging:57 - Logs directory: D:\Tech_Mahindra\t44444\backend\logs
+2025-07-27 12:30:08 | INFO     | utils.error_handler:setup_error_handlers:57 - Error handlers configured
+2025-07-27 12:30:13 | INFO     | services.vector_service:__init__:25 - Loaded embedding model: all-MiniLM-L6-v2
+2025-07-27 12:30:14 | INFO     | __main__:<module>:137 - Starting server on 0.0.0.0:8000
+2025-07-27 12:30:24 | INFO     | utils.logger_config:setup_logging:55 - Logging configured successfully
+2025-07-27 12:30:24 | INFO     | utils.logger_config:setup_logging:56 - Log level set to: INFO
+2025-07-27 12:30:24 | INFO     | utils.logger_config:setup_logging:57 - Logs directory: D:\Tech_Mahindra\t44444\backend\logs
+2025-07-27 12:30:24 | INFO     | utils.error_handler:setup_error_handlers:57 - Error handlers configured
+2025-07-27 12:30:32 | INFO     | services.vector_service:__init__:25 - Loaded embedding model: all-MiniLM-L6-v2
+2025-07-27 12:30:32 | INFO     | utils.logger_config:setup_logging:55 - Logging configured successfully
+2025-07-27 12:30:32 | INFO     | utils.logger_config:setup_logging:56 - Log level set to: INFO
+2025-07-27 12:30:32 | INFO     | utils.logger_config:setup_logging:57 - Logs directory: D:\Tech_Mahindra\t44444\backend\logs
+2025-07-27 12:30:32 | INFO     | utils.error_handler:setup_error_handlers:57 - Error handlers configured
+2025-07-27 12:30:37 | INFO     | services.vector_service:__init__:25 - Loaded embedding model: all-MiniLM-L6-v2
+2025-07-27 12:30:38 | INFO     | main:startup_event:50 - Starting Helpdesk Assistant API
+2025-07-27 12:30:38 | INFO     | services.vector_service:initialize:51 - Connected to existing collection: helpdesk_tickets
+2025-07-27 12:30:38 | INFO     | services.vector_service:initialize:62 - Vector service initialized successfully
+2025-07-27 12:30:38 | INFO     | main:startup_event:53 - Vector service initialized successfully
+2025-07-27 12:30:45 | INFO     | main:submit_ticket:91 - Processing ticket submission for user: Amit Varma Dandu
+2025-07-27 12:30:45 | INFO     | services.ticket_service:process_ticket:51 - Processing ticket TKT-20250727-1007B8 for user Amit Varma Dandu
+2025-07-27 12:30:45 | INFO     | services.vector_service:search_similar:203 - Searching for similar tickets with query: 'VPN not working...'
+2025-07-27 12:30:45 | INFO     | services.vector_service:search_similar:251 - Found 2 similar tickets above threshold 0.3
+2025-07-27 12:30:45 | INFO     | services.vector_service:search_similar:253 - Best match: TKT-20250727-F157E4 with similarity 1.000
+2025-07-27 12:30:45 | INFO     | services.ticket_service:_find_similar_tickets:238 - Found 2 similar tickets
+2025-07-27 12:30:45 | INFO     | services.ticket_service:process_ticket:55 - Found 2 similar tickets
+2025-07-27 12:30:45 | INFO     | services.ticket_service:process_ticket:57 - Best similarity score: 1.000
+2025-07-27 12:30:45 | INFO     | services.ticket_service:process_ticket:73 - High-confidence match found (similarity: 1.000, keywords match), using database solution
+2025-07-27 12:30:45 | INFO     | services.ticket_service:process_ticket:124 - Ticket TKT-20250727-1007B8 processed successfully in 129ms
+2025-07-27 12:30:45 | INFO     | main:submit_ticket:93 - Ticket processed successfully. Type: IssueType.NETWORK, Urgency: UrgencyLevel.HIGH
+2025-07-27 12:32:31 | INFO     | main:submit_ticket:91 - Processing ticket submission for user: Amit Varma Dandu
+2025-07-27 12:32:31 | INFO     | services.ticket_service:process_ticket:51 - Processing ticket TKT-20250727-27B72A for user Amit Varma Dandu
+2025-07-27 12:32:31 | INFO     | services.vector_service:search_similar:203 - Searching for similar tickets with query: 'VPN not working...'
+2025-07-27 12:32:31 | INFO     | services.vector_service:search_similar:251 - Found 2 similar tickets above threshold 0.3
+2025-07-27 12:32:31 | INFO     | services.vector_service:search_similar:253 - Best match: TKT-20250727-F157E4 with similarity 1.000
+2025-07-27 12:32:31 | INFO     | services.ticket_service:_find_similar_tickets:238 - Found 2 similar tickets
+2025-07-27 12:32:31 | INFO     | services.ticket_service:process_ticket:55 - Found 2 similar tickets
+2025-07-27 12:32:31 | INFO     | services.ticket_service:process_ticket:57 - Best similarity score: 1.000
+2025-07-27 12:32:31 | INFO     | services.ticket_service:process_ticket:73 - High-confidence match found (similarity: 1.000, keywords match), using database solution
+2025-07-27 12:32:31 | INFO     | services.ticket_service:process_ticket:124 - Ticket TKT-20250727-27B72A processed successfully in 41ms
+2025-07-27 12:32:31 | INFO     | main:submit_ticket:93 - Ticket processed successfully. Type: IssueType.NETWORK, Urgency: UrgencyLevel.HIGH
+2025-07-27 12:35:22 | INFO     | main:submit_ticket:91 - Processing ticket submission for user: Amit Varma Dandu
+2025-07-27 12:35:22 | INFO     | services.ticket_service:process_ticket:51 - Processing ticket TKT-20250727-686327 for user Amit Varma Dandu
+2025-07-27 12:35:22 | INFO     | services.vector_service:search_similar:203 - Searching for similar tickets with query: 'VPN is not working
+...'
+2025-07-27 12:35:22 | INFO     | services.vector_service:search_similar:251 - Found 2 similar tickets above threshold 0.3
+2025-07-27 12:35:22 | INFO     | services.vector_service:search_similar:253 - Best match: TKT-20250727-F157E4 with similarity 0.986
+2025-07-27 12:35:22 | INFO     | services.ticket_service:_find_similar_tickets:238 - Found 2 similar tickets
+2025-07-27 12:35:22 | INFO     | services.ticket_service:process_ticket:55 - Found 2 similar tickets
+2025-07-27 12:35:22 | INFO     | services.ticket_service:process_ticket:57 - Best similarity score: 0.986
+2025-07-27 12:35:22 | INFO     | services.ticket_service:process_ticket:73 - High-confidence match found (similarity: 0.986, keywords match), using database solution
+2025-07-27 12:35:22 | INFO     | services.ticket_service:process_ticket:124 - Ticket TKT-20250727-686327 processed successfully in 36ms
+2025-07-27 12:35:22 | INFO     | main:submit_ticket:93 - Ticket processed successfully. Type: IssueType.NETWORK, Urgency: UrgencyLevel.HIGH
+2025-07-27 12:36:00 | INFO     | main:submit_ticket:91 - Processing ticket submission for user: Amit Varma Dandu
+2025-07-27 12:36:00 | INFO     | services.ticket_service:process_ticket:51 - Processing ticket TKT-20250727-B6D9F2 for user Amit Varma Dandu
+2025-07-27 12:36:00 | INFO     | services.vector_service:search_similar:203 - Searching for similar tickets with query: 'Gmail password is been shown as unknown
+...'
+2025-07-27 12:36:00 | INFO     | services.vector_service:search_similar:251 - Found 0 similar tickets above threshold 0.3
+2025-07-27 12:36:00 | INFO     | services.ticket_service:_find_similar_tickets:238 - Found 0 similar tickets
+2025-07-27 12:36:00 | INFO     | services.ticket_service:process_ticket:55 - Found 0 similar tickets
+2025-07-27 12:36:00 | INFO     | services.ticket_service:process_ticket:78 - No high-confidence matches found (best: none), generating AI solution
+2025-07-27 12:36:00 | INFO     | services.ai_service:analyze_ticket:106 - Starting AI analysis for ticket from Amit Varma Dandu
+2025-07-27 12:36:03 | INFO     | services.ai_service:analyze_ticket:145 - AI analysis completed in 3079ms
+2025-07-27 12:36:03 | INFO     | services.vector_service:add_resolved_ticket:193 - Added resolved ticket TKT-20250727-B6D9F2 to vector database
+2025-07-27 12:36:03 | INFO     | services.ticket_service:_store_new_solution:166 - Stored new AI solution for ticket TKT-20250727-B6D9F2 in vector database
+2025-07-27 12:36:03 | INFO     | services.ticket_service:process_ticket:124 - Ticket TKT-20250727-B6D9F2 processed successfully in 3232ms
+2025-07-27 12:36:03 | INFO     | main:submit_ticket:93 - Ticket processed successfully. Type: IssueType.ACCESS, Urgency: UrgencyLevel.HIGH
+2025-07-27 12:36:23 | INFO     | main:submit_ticket:91 - Processing ticket submission for user: Amit Varma Dandu
+2025-07-27 12:36:23 | INFO     | services.ticket_service:process_ticket:51 - Processing ticket TKT-20250727-5DDB82 for user Amit Varma Dandu
+2025-07-27 12:36:23 | INFO     | services.vector_service:search_similar:203 - Searching for similar tickets with query: 'Incorrect mail password entered...'
+2025-07-27 12:36:23 | INFO     | services.vector_service:search_similar:251 - Found 1 similar tickets above threshold 0.3
+2025-07-27 12:36:23 | INFO     | services.vector_service:search_similar:253 - Best match: TKT-20250727-B6D9F2 with similarity 0.627
+2025-07-27 12:36:23 | INFO     | services.ticket_service:_find_similar_tickets:238 - Found 1 similar tickets
+2025-07-27 12:36:23 | INFO     | services.ticket_service:process_ticket:55 - Found 1 similar tickets
+2025-07-27 12:36:23 | INFO     | services.ticket_service:process_ticket:57 - Best similarity score: 0.627
+2025-07-27 12:36:23 | INFO     | services.ticket_service:process_ticket:75 - Match found but not confident enough (similarity: 0.627, threshold: 0.8), generating AI solution
+2025-07-27 12:36:23 | INFO     | services.ticket_service:process_ticket:78 - No high-confidence matches found (best: 0.627), generating AI solution
+2025-07-27 12:36:23 | INFO     | services.ai_service:analyze_ticket:106 - Starting AI analysis for ticket from Amit Varma Dandu
+2025-07-27 12:36:26 | INFO     | services.ai_service:analyze_ticket:145 - AI analysis completed in 2568ms
+2025-07-27 12:36:26 | INFO     | services.vector_service:add_resolved_ticket:193 - Added resolved ticket TKT-20250727-5DDB82 to vector database
+2025-07-27 12:36:26 | INFO     | services.ticket_service:_store_new_solution:166 - Stored new AI solution for ticket TKT-20250727-5DDB82 in vector database
+2025-07-27 12:36:26 | INFO     | services.ticket_service:process_ticket:124 - Ticket TKT-20250727-5DDB82 processed successfully in 2639ms
+2025-07-27 12:36:26 | INFO     | main:submit_ticket:93 - Ticket processed successfully. Type: IssueType.ACCESS, Urgency: UrgencyLevel.HIGH
+2025-07-27 12:37:12 | INFO     | main:submit_ticket:91 - Processing ticket submission for user: Amit Varma Dandu
+2025-07-27 12:37:12 | INFO     | services.ticket_service:process_ticket:51 - Processing ticket TKT-20250727-600204 for user Amit Varma Dandu
+2025-07-27 12:37:12 | INFO     | services.vector_service:search_similar:203 - Searching for similar tickets with query: 'Gmail password is not  known...'
+2025-07-27 12:37:12 | INFO     | services.vector_service:search_similar:251 - Found 2 similar tickets above threshold 0.3
+2025-07-27 12:37:12 | INFO     | services.vector_service:search_similar:253 - Best match: TKT-20250727-B6D9F2 with similarity 0.931
+2025-07-27 12:37:12 | INFO     | services.ticket_service:_find_similar_tickets:238 - Found 2 similar tickets
+2025-07-27 12:37:12 | INFO     | services.ticket_service:process_ticket:55 - Found 2 similar tickets
+2025-07-27 12:37:12 | INFO     | services.ticket_service:process_ticket:57 - Best similarity score: 0.931
+2025-07-27 12:37:12 | INFO     | services.ticket_service:process_ticket:73 - High-confidence match found (similarity: 0.931, keywords match), using database solution
+2025-07-27 12:37:12 | INFO     | services.ticket_service:process_ticket:124 - Ticket TKT-20250727-600204 processed successfully in 48ms
+2025-07-27 12:37:12 | INFO     | main:submit_ticket:93 - Ticket processed successfully. Type: IssueType.ACCESS, Urgency: UrgencyLevel.HIGH
+2025-07-27 12:37:21 | INFO     | main:regenerate_ai_solution:125 - Regenerating AI solution for ticket: TKT-20250727-600204
+2025-07-27 12:37:21 | INFO     | services.ticket_service:regenerate_ai_solution:315 - Regenerating AI solution for ticket TKT-20250727-600204
+2025-07-27 12:37:21 | INFO     | services.ai_service:analyze_ticket:106 - Starting AI analysis for ticket from Amit Varma Dandu
+2025-07-27 12:37:24 | INFO     | services.ai_service:analyze_ticket:145 - AI analysis completed in 2836ms
+2025-07-27 12:37:24 | INFO     | services.vector_service:search_similar:203 - Searching for similar tickets with query: 'Gmail password is not  known...'
+2025-07-27 12:37:24 | INFO     | services.vector_service:search_similar:251 - Found 2 similar tickets above threshold 0.3
+2025-07-27 12:37:24 | INFO     | services.vector_service:search_similar:253 - Best match: TKT-20250727-B6D9F2 with similarity 0.931
+2025-07-27 12:37:24 | INFO     | services.ticket_service:_find_similar_tickets:238 - Found 2 similar tickets
+2025-07-27 12:37:24 | INFO     | services.vector_service:add_resolved_ticket:193 - Added resolved ticket TKT-20250727-600204 to vector database
+2025-07-27 12:37:24 | INFO     | services.ticket_service:_store_new_solution:166 - Stored new AI solution for ticket TKT-20250727-600204 in vector database
+2025-07-27 12:37:24 | INFO     | services.ticket_service:regenerate_ai_solution:363 - AI solution regenerated successfully for ticket TKT-20250727-600204
+2025-07-27 12:37:24 | INFO     | main:regenerate_ai_solution:127 - AI solution regenerated successfully for ticket: TKT-20250727-600204
+2025-07-27 16:11:51 | INFO     | main:submit_ticket:91 - Processing ticket submission for user: Amit Varma Dandu
+2025-07-27 16:11:51 | INFO     | services.ticket_service:process_ticket:51 - Processing ticket TKT-20250727-82DDD5 for user Amit Varma Dandu
+2025-07-27 16:11:51 | INFO     | services.vector_service:search_similar:203 - Searching for similar tickets with query: 'Amit is dying
+...'
+2025-07-27 16:11:51 | INFO     | services.vector_service:search_similar:251 - Found 0 similar tickets above threshold 0.3
+2025-07-27 16:11:51 | INFO     | services.ticket_service:_find_similar_tickets:238 - Found 0 similar tickets
+2025-07-27 16:11:51 | INFO     | services.ticket_service:process_ticket:55 - Found 0 similar tickets
+2025-07-27 16:11:51 | INFO     | services.ticket_service:process_ticket:78 - No high-confidence matches found (best: none), generating AI solution
+2025-07-27 16:11:51 | INFO     | services.ai_service:analyze_ticket:106 - Starting AI analysis for ticket from Amit Varma Dandu
+2025-07-27 16:11:55 | INFO     | services.ai_service:analyze_ticket:145 - AI analysis completed in 3743ms
+2025-07-27 16:11:55 | INFO     | services.vector_service:add_resolved_ticket:193 - Added resolved ticket TKT-20250727-82DDD5 to vector database
+2025-07-27 16:11:55 | INFO     | services.ticket_service:_store_new_solution:166 - Stored new AI solution for ticket TKT-20250727-82DDD5 in vector database
+2025-07-27 16:11:55 | INFO     | services.ticket_service:process_ticket:124 - Ticket TKT-20250727-82DDD5 processed successfully in 3824ms
+2025-07-27 16:11:55 | INFO     | main:submit_ticket:93 - Ticket processed successfully. Type: IssueType.OTHER, Urgency: UrgencyLevel.CRITICAL
+2025-07-27 16:25:42 | INFO     | main:submit_ticket:91 - Processing ticket submission for user: Amit Varma Dandu
+2025-07-27 16:25:42 | INFO     | services.ticket_service:process_ticket:51 - Processing ticket TKT-20250727-D7667E for user Amit Varma Dandu
+2025-07-27 16:25:42 | INFO     | services.vector_service:search_similar:203 - Searching for similar tickets with query: 'VPN is not working
+...'
+2025-07-27 16:25:42 | INFO     | services.vector_service:search_similar:251 - Found 2 similar tickets above threshold 0.3
+2025-07-27 16:25:42 | INFO     | services.vector_service:search_similar:253 - Best match: TKT-20250727-F157E4 with similarity 0.986
+2025-07-27 16:25:42 | INFO     | services.ticket_service:_find_similar_tickets:238 - Found 2 similar tickets
+2025-07-27 16:25:42 | INFO     | services.ticket_service:process_ticket:55 - Found 2 similar tickets
+2025-07-27 16:25:42 | INFO     | services.ticket_service:process_ticket:57 - Best similarity score: 0.986
+2025-07-27 16:25:42 | INFO     | services.ticket_service:process_ticket:73 - High-confidence match found (similarity: 0.986, keywords match), using database solution
+2025-07-27 16:25:42 | INFO     | services.ticket_service:process_ticket:124 - Ticket TKT-20250727-D7667E processed successfully in 28ms
+2025-07-27 16:25:42 | INFO     | main:submit_ticket:93 - Ticket processed successfully. Type: IssueType.NETWORK, Urgency: UrgencyLevel.HIGH
+2025-07-27 16:33:12 | INFO     | main:submit_ticket:91 - Processing ticket submission for user: Amit Varma Dandu
+2025-07-27 16:33:12 | INFO     | services.ticket_service:process_ticket:51 - Processing ticket TKT-20250727-5F56FC for user Amit Varma Dandu
+2025-07-27 16:33:12 | INFO     | services.vector_service:search_similar:203 - Searching for similar tickets with query: 'vpn is not working
+...'
+2025-07-27 16:33:12 | INFO     | services.vector_service:search_similar:251 - Found 2 similar tickets above threshold 0.3
+2025-07-27 16:33:12 | INFO     | services.vector_service:search_similar:253 - Best match: TKT-20250727-F157E4 with similarity 0.986
+2025-07-27 16:33:12 | INFO     | services.ticket_service:_find_similar_tickets:238 - Found 2 similar tickets
+2025-07-27 16:33:12 | INFO     | services.ticket_service:process_ticket:55 - Found 2 similar tickets
+2025-07-27 16:33:12 | INFO     | services.ticket_service:process_ticket:57 - Best similarity score: 0.986
+2025-07-27 16:33:12 | INFO     | services.ticket_service:process_ticket:73 - High-confidence match found (similarity: 0.986, keywords match), using database solution
+2025-07-27 16:33:12 | INFO     | services.ticket_service:process_ticket:124 - Ticket TKT-20250727-5F56FC processed successfully in 36ms
+2025-07-27 16:33:12 | INFO     | main:submit_ticket:93 - Ticket processed successfully. Type: IssueType.NETWORK, Urgency: UrgencyLevel.HIGH
+2025-07-27 16:37:42 | INFO     | utils.logger_config:setup_logging:55 - Logging configured successfully
+2025-07-27 16:37:42 | INFO     | utils.logger_config:setup_logging:56 - Log level set to: INFO
+2025-07-27 16:37:42 | INFO     | utils.logger_config:setup_logging:57 - Logs directory: D:\Tech_Mahindra\t44444\backend\logs
+2025-07-27 16:37:42 | INFO     | utils.error_handler:setup_error_handlers:57 - Error handlers configured
+2025-07-27 16:37:50 | INFO     | services.vector_service:__init__:25 - Loaded embedding model: all-MiniLM-L6-v2
+2025-07-27 16:37:51 | INFO     | __main__:<module>:137 - Starting server on 0.0.0.0:8000
+2025-07-27 16:38:01 | INFO     | utils.logger_config:setup_logging:55 - Logging configured successfully
+2025-07-27 16:38:01 | INFO     | utils.logger_config:setup_logging:56 - Log level set to: INFO
+2025-07-27 16:38:01 | INFO     | utils.logger_config:setup_logging:57 - Logs directory: D:\Tech_Mahindra\t44444\backend\logs
+2025-07-27 16:38:01 | INFO     | utils.error_handler:setup_error_handlers:57 - Error handlers configured
+2025-07-27 16:38:06 | INFO     | services.vector_service:__init__:25 - Loaded embedding model: all-MiniLM-L6-v2
+2025-07-27 16:38:07 | INFO     | utils.logger_config:setup_logging:55 - Logging configured successfully
+2025-07-27 16:38:07 | INFO     | utils.logger_config:setup_logging:56 - Log level set to: INFO
+2025-07-27 16:38:07 | INFO     | utils.logger_config:setup_logging:57 - Logs directory: D:\Tech_Mahindra\t44444\backend\logs
+2025-07-27 16:38:07 | INFO     | utils.error_handler:setup_error_handlers:57 - Error handlers configured
+2025-07-27 16:38:11 | INFO     | services.vector_service:__init__:25 - Loaded embedding model: all-MiniLM-L6-v2
+2025-07-27 16:38:11 | INFO     | main:startup_event:50 - Starting Helpdesk Assistant API
+2025-07-27 16:38:12 | INFO     | services.vector_service:initialize:51 - Connected to existing collection: helpdesk_tickets
+2025-07-27 16:38:12 | INFO     | services.vector_service:initialize:62 - Vector service initialized successfully
+2025-07-27 16:38:12 | INFO     | main:startup_event:53 - Vector service initialized successfully
+2025-07-27 16:44:06 | INFO     | main:submit_ticket:91 - Processing ticket submission for user: Amit Varma Dandu
+2025-07-27 16:44:06 | INFO     | services.ticket_service:process_ticket:51 - Processing ticket TKT-20250727-5DF93B for user Amit Varma Dandu
+2025-07-27 16:44:06 | INFO     | services.vector_service:search_similar:203 - Searching for similar tickets with query: 'VPN is not working...'
+2025-07-27 16:44:07 | INFO     | services.vector_service:search_similar:251 - Found 2 similar tickets above threshold 0.3
+2025-07-27 16:44:07 | INFO     | services.vector_service:search_similar:253 - Best match: TKT-20250727-F157E4 with similarity 0.986
+2025-07-27 16:44:07 | INFO     | services.ticket_service:_find_similar_tickets:238 - Found 2 similar tickets
+2025-07-27 16:44:07 | INFO     | services.ticket_service:process_ticket:55 - Found 2 similar tickets
+2025-07-27 16:44:07 | INFO     | services.ticket_service:process_ticket:57 - Best similarity score: 0.986
+2025-07-27 16:44:07 | INFO     | services.ticket_service:process_ticket:73 - High-confidence match found (similarity: 0.986, keywords match), using database solution
+2025-07-27 16:44:07 | INFO     | services.ticket_service:process_ticket:124 - Ticket TKT-20250727-5DF93B processed successfully in 182ms
+2025-07-27 16:44:07 | INFO     | main:submit_ticket:93 - Ticket processed successfully. Type: IssueType.NETWORK, Urgency: UrgencyLevel.HIGH
+2025-07-27 16:49:15 | INFO     | utils.logger_config:setup_logging:55 - Logging configured successfully
+2025-07-27 16:49:15 | INFO     | utils.logger_config:setup_logging:56 - Log level set to: INFO
+2025-07-27 16:49:15 | INFO     | utils.logger_config:setup_logging:57 - Logs directory: D:\Tech_Mahindra\t44444\backend\logs
+2025-07-27 16:49:15 | INFO     | utils.error_handler:setup_error_handlers:57 - Error handlers configured
+2025-07-27 16:49:22 | INFO     | services.vector_service:__init__:25 - Loaded embedding model: all-MiniLM-L6-v2
+2025-07-27 16:49:23 | INFO     | utils.logger_config:setup_logging:55 - Logging configured successfully
+2025-07-27 16:49:23 | INFO     | utils.logger_config:setup_logging:56 - Log level set to: INFO
+2025-07-27 16:49:23 | INFO     | utils.logger_config:setup_logging:57 - Logs directory: D:\Tech_Mahindra\t44444\backend\logs
+2025-07-27 16:49:23 | INFO     | utils.error_handler:setup_error_handlers:57 - Error handlers configured
+2025-07-27 16:49:27 | INFO     | services.vector_service:__init__:25 - Loaded embedding model: all-MiniLM-L6-v2
+2025-07-27 16:49:28 | INFO     | main:startup_event:50 - Starting Helpdesk Assistant API
+2025-07-27 16:49:28 | INFO     | services.vector_service:initialize:51 - Connected to existing collection: helpdesk_tickets
+2025-07-27 16:49:28 | INFO     | services.vector_service:initialize:62 - Vector service initialized successfully
+2025-07-27 16:49:28 | INFO     | main:startup_event:53 - Vector service initialized successfully
+2025-07-27 16:51:44 | INFO     | utils.logger_config:setup_logging:55 - Logging configured successfully
+2025-07-27 16:51:44 | INFO     | utils.logger_config:setup_logging:56 - Log level set to: INFO
+2025-07-27 16:51:44 | INFO     | utils.logger_config:setup_logging:57 - Logs directory: D:\Tech_Mahindra\t44444\backend\logs
+2025-07-27 16:51:44 | INFO     | utils.error_handler:setup_error_handlers:57 - Error handlers configured
+2025-07-27 16:51:51 | INFO     | services.vector_service:__init__:25 - Loaded embedding model: all-MiniLM-L6-v2
+2025-07-27 16:51:52 | INFO     | utils.logger_config:setup_logging:55 - Logging configured successfully
+2025-07-27 16:51:52 | INFO     | utils.logger_config:setup_logging:56 - Log level set to: INFO
+2025-07-27 16:51:52 | INFO     | utils.logger_config:setup_logging:57 - Logs directory: D:\Tech_Mahindra\t44444\backend\logs
+2025-07-27 16:51:52 | INFO     | utils.error_handler:setup_error_handlers:57 - Error handlers configured
+2025-07-27 16:51:56 | INFO     | services.vector_service:__init__:25 - Loaded embedding model: all-MiniLM-L6-v2
+2025-07-27 16:51:57 | INFO     | main:startup_event:50 - Starting Helpdesk Assistant API
+2025-07-27 16:51:57 | INFO     | services.vector_service:initialize:51 - Connected to existing collection: helpdesk_tickets
+2025-07-27 16:51:57 | INFO     | services.vector_service:initialize:62 - Vector service initialized successfully
+2025-07-27 16:51:57 | INFO     | main:startup_event:53 - Vector service initialized successfully
+2025-07-27 16:54:29 | INFO     | main:regenerate_ai_solution:125 - Regenerating AI solution for ticket: TKT-20250727-5DF93B
+2025-07-27 16:54:29 | INFO     | services.ticket_service:regenerate_ai_solution:315 - Regenerating AI solution for ticket TKT-20250727-5DF93B
+2025-07-27 16:54:29 | INFO     | services.ai_service:analyze_ticket:106 - Starting AI analysis for ticket from Amit Varma Dandu
+2025-07-27 16:54:33 | INFO     | services.ai_service:analyze_ticket:145 - AI analysis completed in 4092ms
+2025-07-27 16:54:33 | INFO     | services.vector_service:search_similar:203 - Searching for similar tickets with query: 'VPN is not working...'
+2025-07-27 16:54:34 | WARNING  | services.vector_service:search_similar:245 - Failed to parse similar ticket 2: 'Technical' is not a valid IssueType
+2025-07-27 16:54:34 | WARNING  | services.vector_service:search_similar:245 - Failed to parse similar ticket 3: 'Technical' is not a valid IssueType
+2025-07-27 16:54:34 | INFO     | services.vector_service:search_similar:251 - Found 2 similar tickets above threshold 0.3
+2025-07-27 16:54:34 | INFO     | services.vector_service:search_similar:253 - Best match: TKT-20250727-F157E4 with similarity 0.986
+2025-07-27 16:54:34 | INFO     | services.ticket_service:_find_similar_tickets:238 - Found 2 similar tickets
+2025-07-27 16:54:34 | INFO     | services.vector_service:add_resolved_ticket:193 - Added resolved ticket TKT-20250727-5DF93B to vector database
+2025-07-27 16:54:34 | INFO     | services.ticket_service:_store_new_solution:166 - Stored new AI solution for ticket TKT-20250727-5DF93B in vector database
+2025-07-27 16:54:34 | INFO     | services.ticket_service:regenerate_ai_solution:363 - AI solution regenerated successfully for ticket TKT-20250727-5DF93B
+2025-07-27 16:54:34 | INFO     | main:regenerate_ai_solution:127 - AI solution regenerated successfully for ticket: TKT-20250727-5DF93B
+2025-07-27 17:08:31 | INFO     | main:submit_ticket:91 - Processing ticket submission for user: Amit Varma Dandu
+2025-07-27 17:08:31 | INFO     | services.ticket_service:process_ticket:51 - Processing ticket TKT-20250727-692FD1 for user Amit Varma Dandu
+2025-07-27 17:08:31 | INFO     | services.vector_service:search_similar:203 - Searching for similar tickets with query: 'What to do to install microsoft word...'
+2025-07-27 17:08:31 | INFO     | services.vector_service:search_similar:251 - Found 0 similar tickets above threshold 0.3
+2025-07-27 17:08:31 | INFO     | services.ticket_service:_find_similar_tickets:238 - Found 0 similar tickets
+2025-07-27 17:08:31 | INFO     | services.ticket_service:process_ticket:55 - Found 0 similar tickets
+2025-07-27 17:08:31 | INFO     | services.ticket_service:process_ticket:78 - No high-confidence matches found (best: none), generating AI solution
+2025-07-27 17:08:31 | INFO     | services.ai_service:analyze_ticket:106 - Starting AI analysis for ticket from Amit Varma Dandu
+2025-07-27 17:08:34 | INFO     | services.ai_service:analyze_ticket:145 - AI analysis completed in 3213ms
+2025-07-27 17:08:34 | INFO     | services.vector_service:add_resolved_ticket:193 - Added resolved ticket TKT-20250727-692FD1 to vector database
+2025-07-27 17:08:34 | INFO     | services.ticket_service:_store_new_solution:166 - Stored new AI solution for ticket TKT-20250727-692FD1 in vector database
+2025-07-27 17:08:34 | INFO     | services.ticket_service:process_ticket:124 - Ticket TKT-20250727-692FD1 processed successfully in 3283ms
+2025-07-27 17:08:34 | INFO     | main:submit_ticket:93 - Ticket processed successfully. Type: IssueType.SOFTWARE, Urgency: UrgencyLevel.LOW
+2025-07-27 17:09:11 | INFO     | main:submit_ticket:91 - Processing ticket submission for user: Akhil
+2025-07-27 17:09:11 | INFO     | services.ticket_service:process_ticket:51 - Processing ticket TKT-20250727-3CFC00 for user Akhil
+2025-07-27 17:09:11 | INFO     | services.vector_service:search_similar:203 - Searching for similar tickets with query: 'Guide me through the process of installing microso...'
+2025-07-27 17:09:11 | INFO     | services.vector_service:search_similar:251 - Found 1 similar tickets above threshold 0.3
+2025-07-27 17:09:11 | INFO     | services.vector_service:search_similar:253 - Best match: TKT-20250727-692FD1 with similarity 0.928
+2025-07-27 17:09:11 | INFO     | services.ticket_service:_find_similar_tickets:238 - Found 1 similar tickets
+2025-07-27 17:09:11 | INFO     | services.ticket_service:process_ticket:55 - Found 1 similar tickets
+2025-07-27 17:09:11 | INFO     | services.ticket_service:process_ticket:57 - Best similarity score: 0.928
+2025-07-27 17:09:11 | INFO     | services.ticket_service:process_ticket:75 - Match found but not confident enough (similarity: 0.928, threshold: 0.8), generating AI solution
+2025-07-27 17:09:11 | INFO     | services.ticket_service:process_ticket:78 - No high-confidence matches found (best: 0.928), generating AI solution
+2025-07-27 17:09:11 | INFO     | services.ai_service:analyze_ticket:106 - Starting AI analysis for ticket from Akhil
+2025-07-27 17:09:14 | INFO     | services.ai_service:analyze_ticket:145 - AI analysis completed in 2772ms
+2025-07-27 17:09:14 | INFO     | services.vector_service:add_resolved_ticket:193 - Added resolved ticket TKT-20250727-3CFC00 to vector database
+2025-07-27 17:09:14 | INFO     | services.ticket_service:_store_new_solution:166 - Stored new AI solution for ticket TKT-20250727-3CFC00 in vector database
+2025-07-27 17:09:14 | INFO     | services.ticket_service:process_ticket:124 - Ticket TKT-20250727-3CFC00 processed successfully in 2844ms
+2025-07-27 17:09:14 | INFO     | main:submit_ticket:93 - Ticket processed successfully. Type: IssueType.SOFTWARE, Urgency: UrgencyLevel.LOW
+2025-07-27 17:11:52 | INFO     | main:submit_ticket:91 - Processing ticket submission for user: Amit Varma Dandu
+2025-07-27 17:11:52 | INFO     | services.ticket_service:process_ticket:51 - Processing ticket TKT-20250727-1FA246 for user Amit Varma Dandu
+2025-07-27 17:11:52 | INFO     | services.vector_service:search_similar:203 - Searching for similar tickets with query: 'Guide me through the process of installing Word on...'
+2025-07-27 17:11:52 | INFO     | services.vector_service:search_similar:251 - Found 2 similar tickets above threshold 0.3
+2025-07-27 17:11:52 | INFO     | services.vector_service:search_similar:253 - Best match: TKT-20250727-3CFC00 with similarity 0.870
+2025-07-27 17:11:52 | INFO     | services.ticket_service:_find_similar_tickets:238 - Found 2 similar tickets
+2025-07-27 17:11:52 | INFO     | services.ticket_service:process_ticket:55 - Found 2 similar tickets
+2025-07-27 17:11:52 | INFO     | services.ticket_service:process_ticket:57 - Best similarity score: 0.870
+2025-07-27 17:11:52 | INFO     | services.ticket_service:process_ticket:73 - High-confidence match found (similarity: 0.870, keywords match), using database solution
+2025-07-27 17:11:52 | INFO     | services.ticket_service:process_ticket:124 - Ticket TKT-20250727-1FA246 processed successfully in 43ms
+2025-07-27 17:11:52 | INFO     | main:submit_ticket:93 - Ticket processed successfully. Type: IssueType.SOFTWARE, Urgency: UrgencyLevel.LOW
+2025-07-27 17:12:10 | INFO     | utils.logger_config:setup_logging:55 - Logging configured successfully
+2025-07-27 17:12:10 | INFO     | utils.logger_config:setup_logging:56 - Log level set to: INFO
+2025-07-27 17:12:10 | INFO     | utils.logger_config:setup_logging:57 - Logs directory: D:\Tech_Mahindra\t44444\backend\logs
+2025-07-27 17:12:10 | INFO     | utils.error_handler:setup_error_handlers:57 - Error handlers configured
+2025-07-27 17:12:17 | INFO     | services.vector_service:__init__:25 - Loaded embedding model: all-MiniLM-L6-v2
+2025-07-27 17:12:17 | INFO     | utils.logger_config:setup_logging:55 - Logging configured successfully
+2025-07-27 17:12:17 | INFO     | utils.logger_config:setup_logging:56 - Log level set to: INFO
+2025-07-27 17:12:17 | INFO     | utils.logger_config:setup_logging:57 - Logs directory: D:\Tech_Mahindra\t44444\backend\logs
+2025-07-27 17:12:17 | INFO     | utils.error_handler:setup_error_handlers:57 - Error handlers configured
+2025-07-27 17:12:22 | INFO     | services.vector_service:__init__:25 - Loaded embedding model: all-MiniLM-L6-v2
+2025-07-27 17:12:23 | INFO     | main:startup_event:50 - Starting Helpdesk Assistant API
+2025-07-27 17:12:23 | INFO     | services.vector_service:initialize:51 - Connected to existing collection: helpdesk_tickets
+2025-07-27 17:12:23 | INFO     | services.vector_service:initialize:62 - Vector service initialized successfully
+2025-07-27 17:12:23 | INFO     | main:startup_event:53 - Vector service initialized successfully
+2025-07-27 18:31:10 | INFO     | utils.logger_config:setup_logging:55 - Logging configured successfully
+2025-07-27 18:31:10 | INFO     | utils.logger_config:setup_logging:56 - Log level set to: INFO
+2025-07-27 18:31:10 | INFO     | utils.logger_config:setup_logging:57 - Logs directory: D:\Tech_Mahindra\t44444\backend\logs
+2025-07-27 18:31:10 | INFO     | utils.error_handler:setup_error_handlers:57 - Error handlers configured
+2025-07-27 18:31:17 | INFO     | services.vector_service:__init__:25 - Loaded embedding model: all-MiniLM-L6-v2
+2025-07-27 18:31:18 | INFO     | __main__:<module>:137 - Starting server on 0.0.0.0:8000
+2025-07-27 18:31:27 | INFO     | utils.logger_config:setup_logging:55 - Logging configured successfully
+2025-07-27 18:31:27 | INFO     | utils.logger_config:setup_logging:56 - Log level set to: INFO
+2025-07-27 18:31:27 | INFO     | utils.logger_config:setup_logging:57 - Logs directory: D:\Tech_Mahindra\t44444\backend\logs
+2025-07-27 18:31:27 | INFO     | utils.error_handler:setup_error_handlers:57 - Error handlers configured
+2025-07-27 18:31:33 | INFO     | services.vector_service:__init__:25 - Loaded embedding model: all-MiniLM-L6-v2
+2025-07-27 18:31:33 | INFO     | utils.logger_config:setup_logging:55 - Logging configured successfully
+2025-07-27 18:31:33 | INFO     | utils.logger_config:setup_logging:56 - Log level set to: INFO
+2025-07-27 18:31:33 | INFO     | utils.logger_config:setup_logging:57 - Logs directory: D:\Tech_Mahindra\t44444\backend\logs
+2025-07-27 18:31:33 | INFO     | utils.error_handler:setup_error_handlers:57 - Error handlers configured
+2025-07-27 18:31:39 | INFO     | services.vector_service:__init__:25 - Loaded embedding model: all-MiniLM-L6-v2
+2025-07-27 18:31:40 | INFO     | main:startup_event:50 - Starting Helpdesk Assistant API
+2025-07-27 18:31:40 | INFO     | services.vector_service:initialize:51 - Connected to existing collection: helpdesk_tickets
+2025-07-27 18:31:40 | INFO     | services.vector_service:initialize:62 - Vector service initialized successfully
+2025-07-27 18:31:40 | INFO     | main:startup_event:53 - Vector service initialized successfully
+2025-07-27 18:53:53 | INFO     | main:submit_ticket:91 - Processing ticket submission for user: amit
+2025-07-27 18:53:53 | INFO     | services.ticket_service:process_ticket:51 - Processing ticket TKT-20250727-2B36AA for user amit
+2025-07-27 18:53:53 | INFO     | services.vector_service:search_similar:203 - Searching for similar tickets with query: 'VPN service
+...'
+2025-07-27 18:53:54 | WARNING  | services.vector_service:search_similar:245 - Failed to parse similar ticket 2: 'Technical' is not a valid IssueType
+2025-07-27 18:53:54 | INFO     | services.vector_service:search_similar:251 - Found 3 similar tickets above threshold 0.3
+2025-07-27 18:53:54 | INFO     | services.vector_service:search_similar:253 - Best match: TKT-20250727-F157E4 with similarity 0.640
+2025-07-27 18:53:54 | INFO     | services.ticket_service:_find_similar_tickets:244 - Found 3 similar tickets
+2025-07-27 18:53:54 | INFO     | services.ticket_service:process_ticket:55 - Found 3 similar tickets
+2025-07-27 18:53:54 | INFO     | services.ticket_service:process_ticket:57 - Best similarity score: 0.640
+2025-07-27 18:53:54 | INFO     | services.ticket_service:process_ticket:81 - Match found but not confident enough (similarity: 0.640, threshold: 0.8), generating AI solution
+2025-07-27 18:53:54 | INFO     | services.ticket_service:process_ticket:84 - No high-confidence matches found (best: 0.64), generating AI solution
+2025-07-27 18:53:54 | INFO     | services.ai_service:analyze_ticket:106 - Starting AI analysis for ticket from amit
+2025-07-27 18:53:56 | INFO     | services.ai_service:analyze_ticket:145 - AI analysis completed in 2144ms
+2025-07-27 18:53:56 | INFO     | services.vector_service:add_resolved_ticket:193 - Added resolved ticket TKT-20250727-2B36AA to vector database
+2025-07-27 18:53:56 | INFO     | services.ticket_service:_store_new_solution:172 - Stored new AI solution for ticket TKT-20250727-2B36AA in vector database
+2025-07-27 18:53:56 | INFO     | services.ticket_service:process_ticket:130 - Ticket TKT-20250727-2B36AA processed successfully in 3464ms
+2025-07-27 18:53:56 | INFO     | main:submit_ticket:93 - Ticket processed successfully. Type: IssueType.NETWORK, Urgency: UrgencyLevel.HIGH
+2025-07-27 21:52:28 | INFO     | main:submit_ticket:91 - Processing ticket submission for user: amit
+2025-07-27 21:52:28 | INFO     | services.ticket_service:process_ticket:51 - Processing ticket TKT-20250727-53BF18 for user amit
+2025-07-27 21:52:28 | INFO     | services.vector_service:search_similar:203 - Searching for similar tickets with query: 'vpn is not working...'
+2025-07-27 21:52:28 | WARNING  | services.vector_service:search_similar:245 - Failed to parse similar ticket 3: 'Technical' is not a valid IssueType
+2025-07-27 21:52:28 | INFO     | services.vector_service:search_similar:251 - Found 4 similar tickets above threshold 0.3
+2025-07-27 21:52:28 | INFO     | services.vector_service:search_similar:253 - Best match: TKT-20250727-5DF93B with similarity 1.000
+2025-07-27 21:52:28 | INFO     | services.ticket_service:_find_similar_tickets:244 - Found 4 similar tickets
+2025-07-27 21:52:28 | INFO     | services.ticket_service:process_ticket:55 - Found 4 similar tickets
+2025-07-27 21:52:28 | INFO     | services.ticket_service:process_ticket:57 - Best similarity score: 1.000
+2025-07-27 21:52:28 | INFO     | services.ticket_service:process_ticket:74 - Very high-confidence match found (similarity: 1.000), using database solution
+2025-07-27 21:52:28 | INFO     | services.ticket_service:process_ticket:130 - Ticket TKT-20250727-53BF18 processed successfully in 91ms
+2025-07-27 21:52:28 | INFO     | main:submit_ticket:93 - Ticket processed successfully. Type: IssueType.NETWORK, Urgency: UrgencyLevel.HIGH
+2025-07-27 22:08:42 | INFO     | utils.logger_config:setup_logging:55 - Logging configured successfully
+2025-07-27 22:08:42 | INFO     | utils.logger_config:setup_logging:56 - Log level set to: INFO
+2025-07-27 22:08:42 | INFO     | utils.logger_config:setup_logging:57 - Logs directory: D:\Tech_Mahindra\t44444\backend\logs
+2025-07-27 22:08:42 | INFO     | utils.error_handler:setup_error_handlers:57 - Error handlers configured
+2025-07-27 22:08:52 | INFO     | services.vector_service:__init__:25 - Loaded embedding model: all-MiniLM-L6-v2
+2025-07-27 22:08:52 | INFO     | __main__:<module>:137 - Starting server on 0.0.0.0:8000
+2025-07-27 22:09:02 | INFO     | utils.logger_config:setup_logging:55 - Logging configured successfully
+2025-07-27 22:09:02 | INFO     | utils.logger_config:setup_logging:56 - Log level set to: INFO
+2025-07-27 22:09:02 | INFO     | utils.logger_config:setup_logging:57 - Logs directory: D:\Tech_Mahindra\t44444\backend\logs
+2025-07-27 22:09:02 | INFO     | utils.error_handler:setup_error_handlers:57 - Error handlers configured
+2025-07-27 22:09:09 | INFO     | services.vector_service:__init__:25 - Loaded embedding model: all-MiniLM-L6-v2
+2025-07-27 22:09:10 | INFO     | utils.logger_config:setup_logging:55 - Logging configured successfully
+2025-07-27 22:09:10 | INFO     | utils.logger_config:setup_logging:56 - Log level set to: INFO
+2025-07-27 22:09:10 | INFO     | utils.logger_config:setup_logging:57 - Logs directory: D:\Tech_Mahindra\t44444\backend\logs
+2025-07-27 22:09:10 | INFO     | utils.error_handler:setup_error_handlers:57 - Error handlers configured
+2025-07-27 22:09:14 | INFO     | services.vector_service:__init__:25 - Loaded embedding model: all-MiniLM-L6-v2
+2025-07-27 22:09:15 | INFO     | main:startup_event:50 - Starting Helpdesk Assistant API
+2025-07-27 22:09:16 | INFO     | services.vector_service:initialize:57 - Created new collection: helpdesk_tickets
+2025-07-27 22:09:16 | INFO     | services.vector_service:_add_sample_data:162 - Added 5 sample tickets to collection
+2025-07-27 22:09:16 | INFO     | services.vector_service:initialize:62 - Vector service initialized successfully
+2025-07-27 22:09:16 | INFO     | main:startup_event:53 - Vector service initialized successfully
+2025-07-27 22:09:26 | INFO     | main:submit_ticket:91 - Processing ticket submission for user: amit
+2025-07-27 22:09:26 | INFO     | services.ticket_service:process_ticket:51 - Processing ticket TKT-20250727-C36DE6 for user amit
+2025-07-27 22:09:26 | INFO     | services.vector_service:search_similar:203 - Searching for similar tickets with query: 'VPN is not opening...'
+2025-07-27 22:09:27 | INFO     | services.vector_service:search_similar:251 - Found 0 similar tickets above threshold 0.3
+2025-07-27 22:09:27 | INFO     | services.ticket_service:_find_similar_tickets:244 - Found 0 similar tickets
+2025-07-27 22:09:27 | INFO     | services.ticket_service:process_ticket:55 - Found 0 similar tickets
+2025-07-27 22:09:27 | INFO     | services.ticket_service:process_ticket:84 - No high-confidence matches found (best: none), generating AI solution
+2025-07-27 22:09:27 | INFO     | services.ai_service:analyze_ticket:106 - Starting AI analysis for ticket from amit
+2025-07-27 22:09:29 | INFO     | services.ai_service:analyze_ticket:145 - AI analysis completed in 2951ms
+2025-07-27 22:09:30 | INFO     | services.vector_service:add_resolved_ticket:193 - Added resolved ticket TKT-20250727-C36DE6 to vector database
+2025-07-27 22:09:30 | INFO     | services.ticket_service:_store_new_solution:172 - Stored new AI solution for ticket TKT-20250727-C36DE6 in vector database
+2025-07-27 22:09:30 | INFO     | services.ticket_service:process_ticket:130 - Ticket TKT-20250727-C36DE6 processed successfully in 3045ms
+2025-07-27 22:09:30 | INFO     | main:submit_ticket:93 - Ticket processed successfully. Type: IssueType.SOFTWARE, Urgency: UrgencyLevel.HIGH
+2025-07-27 22:09:43 | INFO     | main:submit_ticket:91 - Processing ticket submission for user: amit
+2025-07-27 22:09:43 | INFO     | services.ticket_service:process_ticket:51 - Processing ticket TKT-20250727-8D56A8 for user amit
+2025-07-27 22:09:43 | INFO     | services.vector_service:search_similar:203 - Searching for similar tickets with query: 'Not able to open vpn
+...'
+2025-07-27 22:09:43 | INFO     | services.vector_service:search_similar:251 - Found 1 similar tickets above threshold 0.3
+2025-07-27 22:09:43 | INFO     | services.vector_service:search_similar:253 - Best match: TKT-20250727-C36DE6 with similarity 0.943
+2025-07-27 22:09:43 | INFO     | services.ticket_service:_find_similar_tickets:244 - Found 1 similar tickets
+2025-07-27 22:09:43 | INFO     | services.ticket_service:process_ticket:55 - Found 1 similar tickets
+2025-07-27 22:09:43 | INFO     | services.ticket_service:process_ticket:57 - Best similarity score: 0.943
+2025-07-27 22:09:43 | INFO     | services.ticket_service:process_ticket:74 - Very high-confidence match found (similarity: 0.943), using database solution
+2025-07-27 22:09:43 | INFO     | services.ticket_service:process_ticket:130 - Ticket TKT-20250727-8D56A8 processed successfully in 28ms
+2025-07-27 22:09:43 | INFO     | main:submit_ticket:93 - Ticket processed successfully. Type: IssueType.SOFTWARE, Urgency: UrgencyLevel.HIGH
+2025-07-27 22:21:22 | INFO     | main:submit_ticket:91 - Processing ticket submission for user: amit
+2025-07-27 22:21:22 | INFO     | services.ticket_service:process_ticket:51 - Processing ticket TKT-20250727-773657 for user amit
+2025-07-27 22:21:22 | INFO     | services.vector_service:search_similar:203 - Searching for similar tickets with query: 'vpn is not working
+...'
+2025-07-27 22:21:22 | INFO     | services.vector_service:search_similar:251 - Found 1 similar tickets above threshold 0.3
+2025-07-27 22:21:22 | INFO     | services.vector_service:search_similar:253 - Best match: TKT-20250727-C36DE6 with similarity 0.878
+2025-07-27 22:21:22 | INFO     | services.ticket_service:_find_similar_tickets:244 - Found 1 similar tickets
+2025-07-27 22:21:22 | INFO     | services.ticket_service:process_ticket:55 - Found 1 similar tickets
+2025-07-27 22:21:22 | INFO     | services.ticket_service:process_ticket:57 - Best similarity score: 0.878
+2025-07-27 22:21:22 | INFO     | services.ticket_service:process_ticket:81 - Match found but not confident enough (similarity: 0.878, threshold: 0.8), generating AI solution
+2025-07-27 22:21:22 | INFO     | services.ticket_service:process_ticket:84 - No high-confidence matches found (best: 0.878), generating AI solution
+2025-07-27 22:21:22 | INFO     | services.ai_service:analyze_ticket:106 - Starting AI analysis for ticket from amit
+2025-07-27 22:21:24 | INFO     | services.ai_service:analyze_ticket:145 - AI analysis completed in 2804ms
+2025-07-27 22:21:24 | INFO     | services.vector_service:add_resolved_ticket:193 - Added resolved ticket TKT-20250727-773657 to vector database
+2025-07-27 22:21:24 | INFO     | services.ticket_service:_store_new_solution:172 - Stored new AI solution for ticket TKT-20250727-773657 in vector database
+2025-07-27 22:21:24 | INFO     | services.ticket_service:process_ticket:130 - Ticket TKT-20250727-773657 processed successfully in 2848ms
+2025-07-27 22:21:24 | INFO     | main:submit_ticket:93 - Ticket processed successfully. Type: IssueType.NETWORK, Urgency: UrgencyLevel.HIGH
+2025-07-27 22:24:25 | INFO     | main:submit_ticket:91 - Processing ticket submission for user: amit
+2025-07-27 22:24:25 | INFO     | services.ticket_service:process_ticket:51 - Processing ticket TKT-20250727-6758D3 for user amit
+2025-07-27 22:24:25 | INFO     | services.vector_service:search_similar:203 - Searching for similar tickets with query: 'vpn is not working...'
+2025-07-27 22:24:25 | INFO     | services.vector_service:search_similar:251 - Found 2 similar tickets above threshold 0.3
+2025-07-27 22:24:25 | INFO     | services.vector_service:search_similar:253 - Best match: TKT-20250727-773657 with similarity 1.000
+2025-07-27 22:24:25 | INFO     | services.ticket_service:_find_similar_tickets:244 - Found 2 similar tickets
+2025-07-27 22:24:25 | INFO     | services.ticket_service:process_ticket:55 - Found 2 similar tickets
+2025-07-27 22:24:25 | INFO     | services.ticket_service:process_ticket:57 - Best similarity score: 1.000
+2025-07-27 22:24:25 | INFO     | services.ticket_service:process_ticket:74 - Very high-confidence match found (similarity: 1.000), using database solution
+2025-07-27 22:24:25 | INFO     | services.ticket_service:process_ticket:130 - Ticket TKT-20250727-6758D3 processed successfully in 30ms
+2025-07-27 22:24:25 | INFO     | main:submit_ticket:93 - Ticket processed successfully. Type: IssueType.NETWORK, Urgency: UrgencyLevel.HIGH
+2025-07-27 22:24:48 | INFO     | main:regenerate_ai_solution:125 - Regenerating AI solution for ticket: TKT-20250727-6758D3
+2025-07-27 22:24:48 | INFO     | services.ticket_service:regenerate_ai_solution:321 - Regenerating AI solution for ticket TKT-20250727-6758D3
+2025-07-27 22:24:48 | INFO     | services.ai_service:analyze_ticket:106 - Starting AI analysis for ticket from amit
+2025-07-27 22:24:51 | INFO     | services.ai_service:analyze_ticket:145 - AI analysis completed in 3446ms
+2025-07-27 22:24:51 | INFO     | services.vector_service:search_similar:203 - Searching for similar tickets with query: 'vpn is not working...'
+2025-07-27 22:24:51 | INFO     | services.vector_service:search_similar:251 - Found 2 similar tickets above threshold 0.3
+2025-07-27 22:24:51 | INFO     | services.vector_service:search_similar:253 - Best match: TKT-20250727-773657 with similarity 1.000
+2025-07-27 22:24:51 | INFO     | services.ticket_service:_find_similar_tickets:244 - Found 2 similar tickets
+2025-07-27 22:24:51 | INFO     | services.vector_service:add_resolved_ticket:193 - Added resolved ticket TKT-20250727-6758D3 to vector database
+2025-07-27 22:24:51 | INFO     | services.ticket_service:_store_new_solution:172 - Stored new AI solution for ticket TKT-20250727-6758D3 in vector database
+2025-07-27 22:24:51 | INFO     | services.ticket_service:regenerate_ai_solution:369 - AI solution regenerated successfully for ticket TKT-20250727-6758D3
+2025-07-27 22:24:51 | INFO     | main:regenerate_ai_solution:127 - AI solution regenerated successfully for ticket: TKT-20250727-6758D3
+2025-07-27 22:26:12 | INFO     | main:submit_ticket:91 - Processing ticket submission for user: amit
+2025-07-27 22:26:12 | INFO     | services.ticket_service:process_ticket:51 - Processing ticket TKT-20250727-570DC6 for user amit
+2025-07-27 22:26:12 | INFO     | services.vector_service:search_similar:203 - Searching for similar tickets with query: 'vpn is not working...'
+2025-07-27 22:26:12 | INFO     | services.vector_service:search_similar:251 - Found 3 similar tickets above threshold 0.3
+2025-07-27 22:26:12 | INFO     | services.vector_service:search_similar:253 - Best match: TKT-20250727-773657 with similarity 1.000
+2025-07-27 22:26:12 | INFO     | services.ticket_service:_find_similar_tickets:244 - Found 3 similar tickets
+2025-07-27 22:26:12 | INFO     | services.ticket_service:process_ticket:55 - Found 3 similar tickets
+2025-07-27 22:26:12 | INFO     | services.ticket_service:process_ticket:57 - Best similarity score: 1.000
+2025-07-27 22:26:12 | INFO     | services.ticket_service:process_ticket:74 - Very high-confidence match found (similarity: 1.000), using database solution
+2025-07-27 22:26:12 | INFO     | services.ticket_service:process_ticket:130 - Ticket TKT-20250727-570DC6 processed successfully in 28ms
+2025-07-27 22:26:12 | INFO     | main:submit_ticket:93 - Ticket processed successfully. Type: IssueType.NETWORK, Urgency: UrgencyLevel.HIGH
+2025-07-27 22:31:52 | INFO     | main:escalate_ticket:114 - Escalating ticket for user: amit
+2025-07-27 22:31:52 | INFO     | services.ticket_service:escalate_ticket:263 - Escalating ticket TKT-20250727-570DC6
+2025-07-27 22:31:52 | INFO     | services.ai_service:generate_escalation:183 - Generating escalation information
+2025-07-27 22:31:56 | INFO     | services.ai_service:generate_escalation:217 - Escalation information generated successfully
+2025-07-27 22:31:56 | INFO     | services.ticket_service:escalate_ticket:290 - Ticket escalated successfully: ESC-20250727-84E487
+2025-07-27 22:32:11 | INFO     | utils.logger_config:setup_logging:55 - Logging configured successfully
+2025-07-27 22:32:11 | INFO     | utils.logger_config:setup_logging:56 - Log level set to: INFO
+2025-07-27 22:32:11 | INFO     | utils.logger_config:setup_logging:57 - Logs directory: D:\Tech_Mahindra\t44444\backend\logs
+2025-07-27 22:32:11 | INFO     | utils.error_handler:setup_error_handlers:57 - Error handlers configured
+2025-07-27 22:32:17 | INFO     | services.vector_service:__init__:25 - Loaded embedding model: all-MiniLM-L6-v2
+2025-07-27 22:32:18 | INFO     | utils.logger_config:setup_logging:55 - Logging configured successfully
+2025-07-27 22:32:18 | INFO     | utils.logger_config:setup_logging:56 - Log level set to: INFO
+2025-07-27 22:32:18 | INFO     | utils.logger_config:setup_logging:57 - Logs directory: D:\Tech_Mahindra\t44444\backend\logs
+2025-07-27 22:32:18 | INFO     | utils.error_handler:setup_error_handlers:57 - Error handlers configured
+2025-07-27 22:32:22 | INFO     | services.vector_service:__init__:25 - Loaded embedding model: all-MiniLM-L6-v2
+2025-07-27 22:32:22 | INFO     | main:startup_event:50 - Starting Helpdesk Assistant API
+2025-07-27 22:32:23 | INFO     | services.vector_service:initialize:51 - Connected to existing collection: helpdesk_tickets
+2025-07-27 22:32:23 | INFO     | services.vector_service:initialize:62 - Vector service initialized successfully
+2025-07-27 22:32:23 | INFO     | main:startup_event:53 - Vector service initialized successfully
+2025-07-27 22:37:15 | INFO     | utils.logger_config:setup_logging:55 - Logging configured successfully
+2025-07-27 22:37:15 | INFO     | utils.logger_config:setup_logging:56 - Log level set to: INFO
+2025-07-27 22:37:15 | INFO     | utils.logger_config:setup_logging:57 - Logs directory: D:\Tech_Mahindra\t44444\backend\logs
+2025-07-27 22:37:15 | INFO     | utils.error_handler:setup_error_handlers:57 - Error handlers configured
+2025-07-27 22:37:30 | INFO     | services.vector_service:__init__:25 - Loaded embedding model: all-MiniLM-L6-v2
+2025-07-27 22:37:30 | INFO     | utils.logger_config:setup_logging:55 - Logging configured successfully
+2025-07-27 22:37:30 | INFO     | utils.logger_config:setup_logging:56 - Log level set to: INFO
+2025-07-27 22:37:30 | INFO     | utils.logger_config:setup_logging:57 - Logs directory: D:\Tech_Mahindra\t44444\backend\logs
+2025-07-27 22:37:30 | INFO     | utils.error_handler:setup_error_handlers:57 - Error handlers configured
+2025-07-27 22:37:34 | INFO     | services.vector_service:__init__:25 - Loaded embedding model: all-MiniLM-L6-v2
+2025-07-27 22:37:35 | INFO     | main:startup_event:50 - Starting Helpdesk Assistant API
+2025-07-27 22:37:35 | INFO     | services.vector_service:initialize:51 - Connected to existing collection: helpdesk_tickets
+2025-07-27 22:37:35 | INFO     | services.vector_service:initialize:62 - Vector service initialized successfully
+2025-07-27 22:37:35 | INFO     | main:startup_event:53 - Vector service initialized successfully
+2025-07-27 22:44:09 | INFO     | utils.logger_config:setup_logging:55 - Logging configured successfully
+2025-07-27 22:44:09 | INFO     | utils.logger_config:setup_logging:56 - Log level set to: INFO
+2025-07-27 22:44:09 | INFO     | utils.logger_config:setup_logging:57 - Logs directory: D:\Tech_Mahindra\t44444\backend\logs
+2025-07-27 22:44:09 | INFO     | utils.error_handler:setup_error_handlers:57 - Error handlers configured
+2025-07-27 22:44:22 | INFO     | services.vector_service:__init__:25 - Loaded embedding model: all-MiniLM-L6-v2
+2025-07-27 22:44:23 | INFO     | utils.logger_config:setup_logging:55 - Logging configured successfully
+2025-07-27 22:44:23 | INFO     | utils.logger_config:setup_logging:56 - Log level set to: INFO
+2025-07-27 22:44:23 | INFO     | utils.logger_config:setup_logging:57 - Logs directory: D:\Tech_Mahindra\t44444\backend\logs
+2025-07-27 22:44:23 | INFO     | utils.error_handler:setup_error_handlers:57 - Error handlers configured
+2025-07-27 22:44:33 | INFO     | services.vector_service:__init__:25 - Loaded embedding model: all-MiniLM-L6-v2
+2025-07-27 22:44:33 | INFO     | main:startup_event:50 - Starting Helpdesk Assistant API
+2025-07-27 22:44:34 | INFO     | services.vector_service:initialize:51 - Connected to existing collection: helpdesk_tickets
+2025-07-27 22:44:34 | INFO     | services.vector_service:initialize:62 - Vector service initialized successfully
+2025-07-27 22:44:34 | INFO     | main:startup_event:53 - Vector service initialized successfully
+2025-07-27 22:44:34 | INFO     | main:get_admin_tickets:148 - Fetching all tickets for admin dashboard
+2025-07-27 22:44:34 | ERROR    | main:get_admin_tickets:152 - Error fetching admin tickets: 'TicketService' object has no attribute 'get_all_tickets_for_admin'
+2025-07-27 22:44:34 | WARNING  | utils.error_handler:http_exception_handler:13 - HTTP 500: Failed to fetch admin tickets: 'TicketService' object has no attribute 'get_all_tickets_for_admin' - http://localhost:8000/api/admin/tickets
+2025-07-27 22:44:34 | INFO     | main:get_admin_tickets:148 - Fetching all tickets for admin dashboard
+2025-07-27 22:44:34 | ERROR    | main:get_admin_tickets:152 - Error fetching admin tickets: 'TicketService' object has no attribute 'get_all_tickets_for_admin'
+2025-07-27 22:44:34 | WARNING  | utils.error_handler:http_exception_handler:13 - HTTP 500: Failed to fetch admin tickets: 'TicketService' object has no attribute 'get_all_tickets_for_admin' - http://localhost:8000/api/admin/tickets
+2025-07-27 22:48:03 | INFO     | main:get_admin_tickets:148 - Fetching all tickets for admin dashboard
+2025-07-27 22:48:03 | ERROR    | main:get_admin_tickets:152 - Error fetching admin tickets: 'TicketService' object has no attribute 'get_all_tickets_for_admin'
+2025-07-27 22:48:03 | WARNING  | utils.error_handler:http_exception_handler:13 - HTTP 500: Failed to fetch admin tickets: 'TicketService' object has no attribute 'get_all_tickets_for_admin' - http://localhost:8000/api/admin/tickets
+2025-07-27 22:48:17 | INFO     | utils.logger_config:setup_logging:55 - Logging configured successfully
+2025-07-27 22:48:17 | INFO     | utils.logger_config:setup_logging:56 - Log level set to: INFO
+2025-07-27 22:48:17 | INFO     | utils.logger_config:setup_logging:57 - Logs directory: D:\Tech_Mahindra\t44444\backend\logs
+2025-07-27 22:48:17 | INFO     | utils.error_handler:setup_error_handlers:57 - Error handlers configured
+2025-07-27 22:48:25 | INFO     | services.vector_service:__init__:25 - Loaded embedding model: all-MiniLM-L6-v2
+2025-07-27 22:48:26 | INFO     | utils.logger_config:setup_logging:55 - Logging configured successfully
+2025-07-27 22:48:26 | INFO     | utils.logger_config:setup_logging:56 - Log level set to: INFO
+2025-07-27 22:48:26 | INFO     | utils.logger_config:setup_logging:57 - Logs directory: D:\Tech_Mahindra\t44444\backend\logs
+2025-07-27 22:48:26 | INFO     | utils.error_handler:setup_error_handlers:57 - Error handlers configured
+2025-07-27 22:48:30 | INFO     | services.vector_service:__init__:25 - Loaded embedding model: all-MiniLM-L6-v2
+2025-07-27 22:48:31 | INFO     | main:startup_event:50 - Starting Helpdesk Assistant API
+2025-07-27 22:48:31 | INFO     | services.vector_service:initialize:51 - Connected to existing collection: helpdesk_tickets
+2025-07-27 22:48:31 | INFO     | services.vector_service:initialize:62 - Vector service initialized successfully
+2025-07-27 22:48:31 | INFO     | main:startup_event:53 - Vector service initialized successfully
+2025-07-27 22:48:31 | INFO     | main:get_admin_tickets:148 - Fetching all tickets for admin dashboard
+2025-07-27 22:48:31 | INFO     | services.ticket_service:get_all_tickets_for_admin:428 - Fetching all tickets for admin dashboard
+2025-07-27 22:48:31 | ERROR    | services.ticket_service:get_all_tickets_for_admin:480 - Failed to fetch admin tickets: 'VectorService' object has no attribute 'get_resolved_tickets'
+2025-07-27 22:48:31 | INFO     | main:get_admin_tickets:148 - Fetching all tickets for admin dashboard
+2025-07-27 22:48:31 | INFO     | services.ticket_service:get_all_tickets_for_admin:428 - Fetching all tickets for admin dashboard
+2025-07-27 22:48:31 | ERROR    | services.ticket_service:get_all_tickets_for_admin:480 - Failed to fetch admin tickets: 'VectorService' object has no attribute 'get_resolved_tickets'
+2025-07-27 22:48:32 | INFO     | main:get_admin_tickets:148 - Fetching all tickets for admin dashboard
+2025-07-27 22:48:32 | INFO     | services.ticket_service:get_all_tickets_for_admin:428 - Fetching all tickets for admin dashboard
+2025-07-27 22:48:32 | ERROR    | services.ticket_service:get_all_tickets_for_admin:480 - Failed to fetch admin tickets: 'VectorService' object has no attribute 'get_resolved_tickets'
+2025-07-27 22:48:48 | INFO     | utils.logger_config:setup_logging:55 - Logging configured successfully
+2025-07-27 22:48:48 | INFO     | utils.logger_config:setup_logging:56 - Log level set to: INFO
+2025-07-27 22:48:48 | INFO     | utils.logger_config:setup_logging:57 - Logs directory: D:\Tech_Mahindra\t44444\backend\logs
+2025-07-27 22:48:48 | INFO     | utils.error_handler:setup_error_handlers:57 - Error handlers configured
+2025-07-27 22:49:02 | INFO     | services.vector_service:__init__:25 - Loaded embedding model: all-MiniLM-L6-v2
+2025-07-27 22:49:02 | INFO     | utils.logger_config:setup_logging:55 - Logging configured successfully
+2025-07-27 22:49:02 | INFO     | utils.logger_config:setup_logging:56 - Log level set to: INFO
+2025-07-27 22:49:02 | INFO     | utils.logger_config:setup_logging:57 - Logs directory: D:\Tech_Mahindra\t44444\backend\logs
+2025-07-27 22:49:02 | INFO     | utils.error_handler:setup_error_handlers:57 - Error handlers configured
+2025-07-27 22:49:20 | INFO     | services.vector_service:__init__:25 - Loaded embedding model: all-MiniLM-L6-v2
+2025-07-27 22:49:21 | INFO     | main:startup_event:50 - Starting Helpdesk Assistant API
+2025-07-27 22:49:21 | INFO     | services.vector_service:initialize:51 - Connected to existing collection: helpdesk_tickets
+2025-07-27 22:49:21 | INFO     | services.vector_service:initialize:62 - Vector service initialized successfully
+2025-07-27 22:49:21 | INFO     | main:startup_event:53 - Vector service initialized successfully
+2025-07-27 22:52:49 | INFO     | utils.logger_config:setup_logging:55 - Logging configured successfully
+2025-07-27 22:52:49 | INFO     | utils.logger_config:setup_logging:56 - Log level set to: INFO
+2025-07-27 22:52:49 | INFO     | utils.logger_config:setup_logging:57 - Logs directory: D:\Tech_Mahindra\t44444\backend\logs
+2025-07-27 22:52:49 | INFO     | utils.error_handler:setup_error_handlers:57 - Error handlers configured
+2025-07-27 22:53:01 | INFO     | services.vector_service:__init__:25 - Loaded embedding model: all-MiniLM-L6-v2
+2025-07-27 22:53:02 | INFO     | __main__:<module>:159 - Starting server on 0.0.0.0:8000
+2025-07-27 22:53:12 | INFO     | utils.logger_config:setup_logging:55 - Logging configured successfully
+2025-07-27 22:53:12 | INFO     | utils.logger_config:setup_logging:56 - Log level set to: INFO
+2025-07-27 22:53:12 | INFO     | utils.logger_config:setup_logging:57 - Logs directory: D:\Tech_Mahindra\t44444\backend\logs
+2025-07-27 22:53:12 | INFO     | utils.error_handler:setup_error_handlers:57 - Error handlers configured
+2025-07-27 22:53:41 | INFO     | services.vector_service:__init__:25 - Loaded embedding model: all-MiniLM-L6-v2
+2025-07-27 22:53:41 | INFO     | utils.logger_config:setup_logging:55 - Logging configured successfully
+2025-07-27 22:53:41 | INFO     | utils.logger_config:setup_logging:56 - Log level set to: INFO
+2025-07-27 22:53:41 | INFO     | utils.logger_config:setup_logging:57 - Logs directory: D:\Tech_Mahindra\t44444\backend\logs
+2025-07-27 22:53:41 | INFO     | utils.error_handler:setup_error_handlers:57 - Error handlers configured
+2025-07-27 22:53:56 | INFO     | services.vector_service:__init__:25 - Loaded embedding model: all-MiniLM-L6-v2
+2025-07-27 22:53:57 | INFO     | main:startup_event:50 - Starting Helpdesk Assistant API
+2025-07-27 22:53:57 | INFO     | services.vector_service:initialize:51 - Connected to existing collection: helpdesk_tickets
+2025-07-27 22:53:57 | INFO     | services.vector_service:initialize:62 - Vector service initialized successfully
+2025-07-27 22:53:57 | INFO     | main:startup_event:53 - Vector service initialized successfully
+2025-07-27 22:54:02 | INFO     | main:submit_ticket:91 - Processing ticket submission for user: amit
+2025-07-27 22:54:02 | INFO     | services.ticket_service:process_ticket:51 - Processing ticket TKT-20250727-E6DE12 for user amit
+2025-07-27 22:54:02 | INFO     | services.vector_service:search_similar:203 - Searching for similar tickets with query: 'vpn is not working...'
+2025-07-27 22:54:02 | INFO     | services.vector_service:search_similar:251 - Found 3 similar tickets above threshold 0.3
+2025-07-27 22:54:02 | INFO     | services.vector_service:search_similar:253 - Best match: TKT-20250727-773657 with similarity 1.000
+2025-07-27 22:54:02 | INFO     | services.ticket_service:_find_similar_tickets:244 - Found 3 similar tickets
+2025-07-27 22:54:02 | INFO     | services.ticket_service:process_ticket:55 - Found 3 similar tickets
+2025-07-27 22:54:02 | INFO     | services.ticket_service:process_ticket:57 - Best similarity score: 1.000
+2025-07-27 22:54:02 | INFO     | services.ticket_service:process_ticket:74 - Very high-confidence match found (similarity: 1.000), using database solution
+2025-07-27 22:54:02 | INFO     | services.ticket_service:process_ticket:130 - Ticket TKT-20250727-E6DE12 processed successfully in 321ms
+2025-07-27 22:54:02 | INFO     | main:submit_ticket:93 - Ticket processed successfully. Type: IssueType.NETWORK, Urgency: UrgencyLevel.HIGH
+2025-07-27 22:54:14 | INFO     | main:mark_ticket_resolved:137 - Marking ticket as resolved: TKT-20250727-E6DE12
+2025-07-27 22:54:14 | INFO     | services.ticket_service:mark_ticket_resolved:413 - Marking ticket TKT-20250727-E6DE12 as resolved
+2025-07-27 22:55:25 | INFO     | services.vector_service:store_resolved_ticket:312 - Stored resolved ticket: TKT-20250727-E6DE12
+2025-07-27 22:55:25 | INFO     | services.ticket_service:mark_ticket_resolved:429 - Ticket TKT-20250727-E6DE12 marked as resolved successfully
+2025-07-27 22:55:25 | INFO     | main:get_admin_tickets:148 - Fetching all tickets for admin dashboard
+2025-07-27 22:55:25 | INFO     | services.ticket_service:get_all_tickets_for_admin:447 - Fetching all tickets for admin dashboard
+2025-07-27 22:55:25 | INFO     | services.vector_service:get_resolved_tickets:337 - Retrieved 1 resolved tickets
+2025-07-27 22:55:25 | INFO     | services.vector_service:get_escalated_tickets:371 - No escalated tickets collection found
+2025-07-27 22:55:25 | INFO     | services.ticket_service:get_all_tickets_for_admin:492 - Retrieved 1 tickets for admin dashboard
+2025-07-27 22:55:25 | INFO     | main:get_admin_tickets:148 - Fetching all tickets for admin dashboard
+2025-07-27 22:55:25 | INFO     | services.ticket_service:get_all_tickets_for_admin:447 - Fetching all tickets for admin dashboard
+2025-07-27 22:55:25 | INFO     | services.vector_service:get_resolved_tickets:337 - Retrieved 1 resolved tickets
+2025-07-27 22:55:25 | INFO     | services.vector_service:get_escalated_tickets:371 - No escalated tickets collection found
+2025-07-27 22:55:25 | INFO     | services.ticket_service:get_all_tickets_for_admin:492 - Retrieved 1 tickets for admin dashboard
+2025-07-27 22:59:22 | INFO     | main:get_admin_tickets:148 - Fetching all tickets for admin dashboard
+2025-07-27 22:59:22 | INFO     | services.ticket_service:get_all_tickets_for_admin:447 - Fetching all tickets for admin dashboard
+2025-07-27 22:59:22 | INFO     | services.vector_service:get_resolved_tickets:337 - Retrieved 1 resolved tickets
+2025-07-27 22:59:22 | INFO     | services.vector_service:get_escalated_tickets:371 - No escalated tickets collection found
+2025-07-27 22:59:22 | INFO     | services.ticket_service:get_all_tickets_for_admin:492 - Retrieved 1 tickets for admin dashboard
+2025-07-27 22:59:22 | INFO     | main:get_admin_tickets:148 - Fetching all tickets for admin dashboard
+2025-07-27 22:59:22 | INFO     | services.ticket_service:get_all_tickets_for_admin:447 - Fetching all tickets for admin dashboard
+2025-07-27 22:59:22 | INFO     | services.vector_service:get_resolved_tickets:337 - Retrieved 1 resolved tickets
+2025-07-27 22:59:22 | INFO     | services.vector_service:get_escalated_tickets:371 - No escalated tickets collection found
+2025-07-27 22:59:22 | INFO     | services.ticket_service:get_all_tickets_for_admin:492 - Retrieved 1 tickets for admin dashboard
+2025-07-27 23:00:05 | INFO     | main:get_admin_tickets:148 - Fetching all tickets for admin dashboard
+2025-07-27 23:00:05 | INFO     | services.ticket_service:get_all_tickets_for_admin:447 - Fetching all tickets for admin dashboard
+2025-07-27 23:00:05 | INFO     | services.vector_service:get_resolved_tickets:337 - Retrieved 1 resolved tickets
+2025-07-27 23:00:05 | INFO     | services.vector_service:get_escalated_tickets:371 - No escalated tickets collection found
+2025-07-27 23:00:05 | INFO     | services.ticket_service:get_all_tickets_for_admin:492 - Retrieved 1 tickets for admin dashboard
+2025-07-27 23:00:05 | INFO     | main:get_admin_tickets:148 - Fetching all tickets for admin dashboard
+2025-07-27 23:00:05 | INFO     | services.ticket_service:get_all_tickets_for_admin:447 - Fetching all tickets for admin dashboard
+2025-07-27 23:00:05 | INFO     | services.vector_service:get_resolved_tickets:337 - Retrieved 1 resolved tickets
+2025-07-27 23:00:05 | INFO     | services.vector_service:get_escalated_tickets:371 - No escalated tickets collection found
+2025-07-27 23:00:05 | INFO     | services.ticket_service:get_all_tickets_for_admin:492 - Retrieved 1 tickets for admin dashboard

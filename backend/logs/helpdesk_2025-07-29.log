@@ -1,0 +1,58 @@
+2025-07-29 21:16:27 | INFO     | utils.logger_config:setup_logging:55 - Logging configured successfully
+2025-07-29 21:16:27 | INFO     | utils.logger_config:setup_logging:56 - Log level set to: INFO
+2025-07-29 21:16:27 | INFO     | utils.logger_config:setup_logging:57 - Logs directory: D:\Tech_Mahindra\Project\TriageAI 2\backend\logs
+2025-07-29 21:16:27 | INFO     | utils.error_handler:setup_error_handlers:57 - Error handlers configured
+2025-07-29 21:16:34 | INFO     | services.vector_service:__init__:25 - Loaded embedding model: all-MiniLM-L6-v2
+2025-07-29 21:16:35 | INFO     | main:startup_event:50 - Starting Helpdesk Assistant API
+2025-07-29 21:16:36 | INFO     | services.vector_service:initialize:51 - Connected to existing collection: helpdesk_tickets
+2025-07-29 21:16:36 | INFO     | services.vector_service:initialize:62 - Vector service initialized successfully
+2025-07-29 21:16:36 | INFO     | main:startup_event:53 - Vector service initialized successfully
+2025-07-29 21:18:47 | INFO     | main:submit_ticket:91 - Processing ticket submission for user: Amit
+2025-07-29 21:18:47 | INFO     | services.ticket_service:process_ticket:51 - Processing ticket TKT-20250729-C89D73 for user Amit
+2025-07-29 21:18:47 | INFO     | services.vector_service:search_similar:203 - Searching for similar tickets with query: 'key not working
+...'
+2025-07-29 21:18:48 | INFO     | services.vector_service:search_similar:251 - Found 2 similar tickets above threshold 0.3
+2025-07-29 21:18:48 | INFO     | services.vector_service:search_similar:253 - Best match: TKT-20250727-6758D3 with similarity 0.337
+2025-07-29 21:18:48 | INFO     | services.ticket_service:_find_similar_tickets:244 - Found 2 similar tickets
+2025-07-29 21:18:48 | INFO     | services.ticket_service:process_ticket:55 - Found 2 similar tickets
+2025-07-29 21:18:48 | INFO     | services.ticket_service:process_ticket:57 - Best similarity score: 0.337
+2025-07-29 21:18:48 | INFO     | services.ticket_service:process_ticket:81 - Match found but not confident enough (similarity: 0.337, threshold: 0.8), generating AI solution
+2025-07-29 21:18:48 | INFO     | services.ticket_service:process_ticket:84 - No high-confidence matches found (best: 0.337), generating AI solution
+2025-07-29 21:18:48 | INFO     | services.ai_service:analyze_ticket:106 - Starting AI analysis for ticket from Amit
+2025-07-29 21:18:53 | INFO     | services.ai_service:analyze_ticket:145 - AI analysis completed in 5751ms
+2025-07-29 21:18:53 | INFO     | services.vector_service:add_resolved_ticket:193 - Added resolved ticket TKT-20250729-C89D73 to vector database
+2025-07-29 21:18:53 | INFO     | services.ticket_service:_store_new_solution:172 - Stored new AI solution for ticket TKT-20250729-C89D73 in vector database
+2025-07-29 21:18:53 | INFO     | services.ticket_service:process_ticket:130 - Ticket TKT-20250729-C89D73 processed successfully in 6071ms
+2025-07-29 21:18:53 | INFO     | main:submit_ticket:93 - Ticket processed successfully. Type: IssueType.HARDWARE, Urgency: UrgencyLevel.MEDIUM
+2025-07-29 21:19:06 | INFO     | main:get_admin_tickets:148 - Fetching all tickets for admin dashboard
+2025-07-29 21:19:06 | INFO     | services.ticket_service:get_all_tickets_for_admin:447 - Fetching all tickets for admin dashboard
+2025-07-29 21:19:06 | INFO     | services.vector_service:get_resolved_tickets:337 - Retrieved 1 resolved tickets
+2025-07-29 21:19:06 | INFO     | services.vector_service:get_escalated_tickets:367 - Retrieved 1 escalated tickets
+2025-07-29 21:19:06 | INFO     | services.ticket_service:get_all_tickets_for_admin:492 - Retrieved 2 tickets for admin dashboard
+2025-07-29 21:19:07 | INFO     | main:get_admin_tickets:148 - Fetching all tickets for admin dashboard
+2025-07-29 21:19:07 | INFO     | services.ticket_service:get_all_tickets_for_admin:447 - Fetching all tickets for admin dashboard
+2025-07-29 21:19:07 | INFO     | services.vector_service:get_resolved_tickets:337 - Retrieved 1 resolved tickets
+2025-07-29 21:19:07 | INFO     | services.vector_service:get_escalated_tickets:367 - Retrieved 1 escalated tickets
+2025-07-29 21:19:07 | INFO     | services.ticket_service:get_all_tickets_for_admin:492 - Retrieved 2 tickets for admin dashboard
+2025-07-29 21:37:02 | INFO     | main:submit_ticket:91 - Processing ticket submission for user: Amit
+2025-07-29 21:37:02 | INFO     | services.ticket_service:process_ticket:51 - Processing ticket TKT-20250729-F77E69 for user Amit
+2025-07-29 21:37:02 | INFO     | services.vector_service:search_similar:203 - Searching for similar tickets with query: 'api key not working...'
+2025-07-29 21:37:02 | INFO     | services.vector_service:search_similar:251 - Found 1 similar tickets above threshold 0.3
+2025-07-29 21:37:02 | INFO     | services.vector_service:search_similar:253 - Best match: TKT-20250729-C89D73 with similarity 0.723
+2025-07-29 21:37:02 | INFO     | services.ticket_service:_find_similar_tickets:244 - Found 1 similar tickets
+2025-07-29 21:37:02 | INFO     | services.ticket_service:process_ticket:55 - Found 1 similar tickets
+2025-07-29 21:37:02 | INFO     | services.ticket_service:process_ticket:57 - Best similarity score: 0.723
+2025-07-29 21:37:02 | INFO     | services.ticket_service:process_ticket:81 - Match found but not confident enough (similarity: 0.723, threshold: 0.8), generating AI solution
+2025-07-29 21:37:02 | INFO     | services.ticket_service:process_ticket:84 - No high-confidence matches found (best: 0.723), generating AI solution
+2025-07-29 21:37:02 | INFO     | services.ai_service:analyze_ticket:106 - Starting AI analysis for ticket from Amit
+2025-07-29 21:37:12 | INFO     | services.ai_service:analyze_ticket:145 - AI analysis completed in 9484ms
+2025-07-29 21:37:12 | INFO     | services.vector_service:add_resolved_ticket:193 - Added resolved ticket TKT-20250729-F77E69 to vector database
+2025-07-29 21:37:12 | INFO     | services.ticket_service:_store_new_solution:172 - Stored new AI solution for ticket TKT-20250729-F77E69 in vector database
+2025-07-29 21:37:12 | INFO     | services.ticket_service:process_ticket:130 - Ticket TKT-20250729-F77E69 processed successfully in 9534ms
+2025-07-29 21:37:12 | INFO     | main:submit_ticket:93 - Ticket processed successfully. Type: IssueType.ACCESS, Urgency: UrgencyLevel.HIGH
+2025-07-29 21:45:38 | INFO     | utils.logger_config:setup_logging:55 - Logging configured successfully
+2025-07-29 21:45:38 | INFO     | utils.logger_config:setup_logging:56 - Log level set to: INFO
+2025-07-29 21:45:38 | INFO     | utils.logger_config:setup_logging:57 - Logs directory: D:\Tech_Mahindra\Project\TriageAI 2\backend\logs
+2025-07-29 21:45:38 | INFO     | utils.error_handler:setup_error_handlers:57 - Error handlers configured
+2025-07-29 21:45:43 | INFO     | services.vector_service:__init__:25 - Loaded embedding model: all-MiniLM-L6-v2
+2025-07-29 21:45:43 | ERROR    | services.ai_service:__init__:18 - OpenAI API key not found in environment variables

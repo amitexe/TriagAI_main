@@ -1,0 +1,1 @@
+2025-07-29 21:45:43 | ERROR    | services.ai_service:__init__:18 - OpenAI API key not found in environment variables

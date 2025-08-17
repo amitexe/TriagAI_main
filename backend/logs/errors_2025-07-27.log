@@ -1,0 +1,18 @@
+2025-07-27 11:45:12 | ERROR    | services.ticket_service:_store_new_solution:153 - Failed to store new solution for ticket TKT-20250727-43AAE8: 1 validation error for TicketMetadata
+resolution
+  Field required [type=missing, input_value={'ticket_id': 'TKT-202507...solver': 'AI Assistant'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing
+2025-07-27 11:45:40 | ERROR    | services.ticket_service:_store_new_solution:153 - Failed to store new solution for ticket TKT-20250727-3B0449: 1 validation error for TicketMetadata
+resolution
+  Field required [type=missing, input_value={'ticket_id': 'TKT-202507...solver': 'AI Assistant'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing
+2025-07-27 11:46:30 | ERROR    | services.ticket_service:_store_new_solution:153 - Failed to store new solution for ticket TKT-20250727-8C4B10: 1 validation error for TicketMetadata
+resolution
+  Field required [type=missing, input_value={'ticket_id': 'TKT-202507...solver': 'AI Assistant'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing
+2025-07-27 22:44:34 | ERROR    | main:get_admin_tickets:152 - Error fetching admin tickets: 'TicketService' object has no attribute 'get_all_tickets_for_admin'
+2025-07-27 22:44:34 | ERROR    | main:get_admin_tickets:152 - Error fetching admin tickets: 'TicketService' object has no attribute 'get_all_tickets_for_admin'
+2025-07-27 22:48:03 | ERROR    | main:get_admin_tickets:152 - Error fetching admin tickets: 'TicketService' object has no attribute 'get_all_tickets_for_admin'
+2025-07-27 22:48:31 | ERROR    | services.ticket_service:get_all_tickets_for_admin:480 - Failed to fetch admin tickets: 'VectorService' object has no attribute 'get_resolved_tickets'
+2025-07-27 22:48:31 | ERROR    | services.ticket_service:get_all_tickets_for_admin:480 - Failed to fetch admin tickets: 'VectorService' object has no attribute 'get_resolved_tickets'
+2025-07-27 22:48:32 | ERROR    | services.ticket_service:get_all_tickets_for_admin:480 - Failed to fetch admin tickets: 'VectorService' object has no attribute 'get_resolved_tickets'
